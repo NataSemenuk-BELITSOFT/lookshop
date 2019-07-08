@@ -9,12 +9,17 @@
     <title>index</title>
     <style>
         body {
+            margin: 0;
             font-family: 'Roboto Condensed', sans-serif;
         }
         nav {
             display: flex;
+            position: relative;
             flex-direction: row;
             justify-content: space-between;
+            height: 100px;
+            align-items: center;
+            z-index: 100;
         }
         nav ul {
             margin: 0;
@@ -38,7 +43,7 @@
             min-width: 200px;
             background: white;
             transform-origin: 0% 0%;
-            transform: rotateX(-90deg); 
+            transform: rotateX(-270deg); 
         }
         .submenu li {
             position: relative;
@@ -64,6 +69,40 @@
             right: 0;
             top: 40%;
         }
+        .slider {
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        .slider__indicators {
+            position: absolute;
+            bottom: -40px;
+            right: 0;
+            left: 0;
+            z-index: 15;
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .slider__indicator {
+            position: relative;
+            width: 10px;
+            height: 10px;
+            margin-right: 15x;
+            margin-left: 15px;
+            background-color: rgb(129, 129, 129);
+            border-radius: 100%;
+        }
+        .slider__indicator_active {
+            background-color: rgb(253, 146, 109);
+        }
+
+        img[src="slider.png"] {
+            display: inline-block;
+            max-width: 100%;
+        }
         
     </style>
 </head>
@@ -71,7 +110,7 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="logo.png">
+                <a href="index.html" title="lookshop"><img src="logo.png"></a>
             </div>
             <ul class="topmenu">
                 <li class="items-of-navigation"><a href="#1">new</a>
@@ -122,9 +161,20 @@
                 </li>
             </ul>
         </nav>
+        <div class="slider">
+            <ol class="slider__indicators">
+                <li class="slider__indicator"></li>
+                <li class="slider__indicator slider__indicator_active"></li>
+                <li class="slider__indicator"></li>
+                <li class="slider__indicator"></li>
+                <li class="slider__indicator"></li>
+            </ol>
+            <div>
+                <img src="slider.png" alt="c1">
+            </div>
+        </div>
     </header>
 
-    <footer>
-    </footer>
+
 </body>
 </html>
