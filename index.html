@@ -1,0 +1,130 @@
+<html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>index</title>
+    <style>
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav li {
+            padding: 3px;
+        }
+        .topmenu > li {
+            display: inline-block;
+            padding-right: 12px; 
+            margin-right: 20px; 
+        }
+        .topmenu > li > a {
+            text-decoration: none;
+            color: black;
+        }
+        .submenu {
+            position: absolute;
+            min-width: 200px;
+            background: white;
+            transform-origin: 0% 0%;
+            transform: rotateX(-90deg); 
+        }
+        .submenu li {
+            position: relative;
+        }
+        nav li:hover > .submenu {
+            transform: rotateX(0deg);
+        }
+        .submenu  li  a {
+            text-decoration: none;
+            color: black;
+        }
+        .submenu a:hover {
+            font-size: 1.2em;
+        } 
+        .items-of-navigation {
+            position: relative;
+        }
+        .items-of-navigation::after {
+            content: "";
+            border: 4px solid transparent;	
+            border-top: 5px solid black;
+            position: absolute;
+            right: 0;
+            top: 40%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png">
+            </div>
+            <ul class="topmenu">
+                <li class="items-of-navigation"><a href="#1">new</a>
+                    <ul class="submenu">
+                        <li><a href="#1">women</a></li>
+                        <li><a href="#1">men</a></li>
+                        <li><a href="#1">kids</a></li>
+                        <li><a href="#1">plus size</a></li>
+                    </ul>
+                </li>
+                <li class="items-of-navigation"><a href="#1">designers</a>
+                    <ul class="submenu">
+                        <li><a href="#1">Christian Dior</a></li>
+                        <li><a href="#1">Donatella Versace</a></li>
+                        <li><a href="#1">Michael Kors</a></li>
+                        <li><a href="#1">Karl Lagerfeld</a></li>
+                        <li><a href="#1">Miuccia Prada</a></li>
+                    </ul>
+                </li>
+                <li class="items-of-navigation"><a href="#1">women</a>
+                    <ul class="submenu">
+                        <li><a href="#1">blazers</a></li>
+                        <li><a href="#1">tops</a></li>
+                        <li><a href="#1">trousers</a></li>
+                        <li><a href="#1">skirts</a></li>
+                        <li><a href="#1">shoes</a></li>
+                        <li><a href="#1">accessories</a></li>    
+                    </ul>
+                </li>
+                <li class="items-of-navigation"><a href="#1">men</a>
+                    <ul class="submenu">
+                        <li><a href="#1">outerwear</a></li>
+                        <li><a href="#1">suits</a></li>
+                        <li><a href="#1">shirts</a></li>
+                        <li><a href="#1">jeans</a></li>
+                        <li><a href="#1">shoes</a></li>
+                        <li><a href="#1">accessories</a></li>
+                    </ul>
+                </li>
+                <li class="items-of-navigation"><a href="#1">kids</a>
+                    <ul class="submenu">
+                        <li><a href="#1">girl 5 - 14 years</a></li>
+                        <li><a href="#1">boy 5 - 14 years</a></li>
+                        <li><a href="#1">baby girl 3 month - 5 years</a></li>
+                        <li><a href="#1">baby boy 3 month - 5 years</a></li>
+                        <li><a href="#1">shoes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <footer>
+    </footer>
+</body>
+</html>
