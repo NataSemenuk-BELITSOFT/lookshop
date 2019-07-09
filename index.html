@@ -3,10 +3,10 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="D:\lookshop\css\normalize.css"/>
     <link rel="stylesheet" href="D:\lookshop\css\icon-contact.css">
     <link rel="stylesheet" href="D:\lookshop\css\header.css">
@@ -30,6 +30,10 @@
             transform: translate(-50%);
             left: 50%;
         }
+        .button-shop-now input[value="SHOP NOW"] {
+            font-family: 'Nunito', sans-serif;
+        }
+    
         /* @media all and (max-width: 768px)
         and (min-width: 640px)
         {
@@ -94,23 +98,43 @@
                 </li>
             </ul>
         </nav>
-        <div class="slider">
+        <div id="slider" class="slider">
             <ol class="slider__indicators">
-                <li class="slider__indicator"></li>
-                <li class="slider__indicator slider__indicator_active"></li>
-                <li class="slider__indicator"></li>
-                <li class="slider__indicator"></li>
-                <li class="slider__indicator"></li>
+              <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
+              <li class="slider__indicator" data-slide-to="1"></li>
+              <li class="slider__indicator" data-slide-to="2"></li>
+              <li class="slider__indicator" data-slide-to="3"></li>
             </ol>
-            <div class="img_slider">
-                <div class="next"></div>
-                <div class="prev"></div>
-                <img src="slider.png">
+            <div class="slider__items">
+              <div class="slider__item slider__item_active">
+                <img src="slider.png" alt="c1">
                 <div class="button-shop-now">
-                    <input type="button" value="SHOP NOW">
-                </div>
+                  <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+              </div>
+              </div>
+              <div class="slider__item">
+                <img src="slider.png" alt="c1">
+                <div class="button-shop-now">
+                  <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+              </div>
+              </div>
+              <div class="slider__item">
+                <img src="slider.png" alt="c1">
+                <div class="button-shop-now">
+                  <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+              </div>
+              </div>
+              <div class="slider__item">
+                <img src="slider.png" alt="c1">
+                <div class="button-shop-now">
+                  <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+              </div>
+              </div>
             </div>
+            <a class="slider__control slider__control_prev" href="#" role="button"></a>
+            <a class="slider__control slider__control_next" href="#" role="button"></a>
         </div>
+        <script src="js\slider.js"></script>
     </header>
    
     <div class="contact">
@@ -132,5 +156,6 @@
     <div class="poster">
         <img src="poster.png">
     </div>
+    <footer></footer>
 </body>
 </html>
