@@ -1,5 +1,6 @@
 .contact {
     display: flex;
+    justify-content: space-around;
     font-family: 'Poppins', sans-serif;
     align-items: center;
     position: relative;
@@ -30,10 +31,24 @@ input[type="button"] {
 input[type="button"]:hover {
     background-color:  rgba(218, 95, 54, 0.5);
 }
-.contact p {
-    font-size: 15px;
+.contact div {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.contact p {;
+    font-size: 15px; 
     padding-right: 10px;  
 }
-.contact_list {
+.contact-list li {
     display: inline-block;
+}
+.item__contact i {
+    color: rgb(105, 105, 105);
+    font-size: 25px;
+}
+.item__contact i:hover {
+    color: rgb(59, 59, 59);
+    font-size: 25px;
+
 }
