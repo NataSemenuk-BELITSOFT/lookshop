@@ -17,7 +17,19 @@
         body {
             position: relative;
             margin: 0;
-         }
+        }
+        .poster {
+            position: relative;
+            width: 100%;
+            
+        }
+        img[src="poster.png"] {
+            position: absolute;
+            top: 50px;
+            width: 1125px;
+            transform: translate(-50%);
+            left: 50%;
+        }
         /* @media all and (max-width: 768px)
         and (min-width: 640px)
         {
@@ -94,20 +106,31 @@
                 <div class="next"></div>
                 <div class="prev"></div>
                 <img src="slider.png">
+                <div class="button-shop-now">
+                    <input type="button" value="SHOP NOW">
+                </div>
             </div>
         </div>
     </header>
    
     <div class="contact">
-        <p>Stay updated</p>
+        <div class="email-box">
+            <p>Stay updated</p>
             <input type="text" placeholder="Your email address">
             <input type="button" value="+">
-        <p>Find us here</p>
-        <ul class="contact-list">
-            <li><a href="" class="item__contact"><i class="icon-twitter"></i></a></li>
-            <li><a href="" class="item__contact"><i class="icon-facebook"></i></a></li>
-            <li><a href="" class="item__contact"><i class="icon-pinterest-circled"></i></a></li>
-        </ul>
+        </div>
+        <div class="contact-box">
+            <p>Find us here</p>
+            <ul class="contact-list">
+                <li><a href="" class="item__contact"><i class="icon-twitter"></i></a></li>
+                <li><a href="" class="item__contact"><i class="icon-facebook"></i></a></li>
+                <li><a href="" class="item__contact"><i class="icon-pinterest-circled"></i></a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="poster">
+        <img src="poster.png">
     </div>
 </body>
 </html>

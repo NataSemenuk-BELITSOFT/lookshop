@@ -1,7 +1,7 @@
 .contact {
     display: flex;
-    justify-content: space-around;
     font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
     align-items: center;
     position: relative;
     bottom:  -50px;
@@ -9,7 +9,7 @@
     height: 70px;
     background-color: rgb(204, 204, 204);
 }
-input[type="text"] {
+.email-box input[type="text"] {
     height: 35px;
     padding-left: 5px; 
     font-style: italic;
@@ -17,7 +17,7 @@ input[type="text"] {
     border: none;
     outline: none;
   }
-input[type="button"] {
+.email-box input[type="button"] {
     height: 35px;
     width: 35px;
     background: rgb(253, 145, 109);
@@ -31,14 +31,12 @@ input[type="button"] {
 input[type="button"]:hover {
     background-color:  rgba(218, 95, 54, 0.5);
 }
-.contact div {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-.contact p {;
+.contact p {
     font-size: 15px; 
     padding-right: 10px;  
+}
+.contact-list {
+    padding: 0;
 }
 .contact-list li {
     display: inline-block;
@@ -50,5 +48,15 @@ input[type="button"]:hover {
 .item__contact i:hover {
     color: rgb(59, 59, 59);
     font-size: 25px;
-
+}
+a {
+    text-decoration: none;
+}
+.email-box {
+    display: flex;
+    align-items: center;
+}
+.contact-box {
+    display: flex;
+    align-items: center;
 }
