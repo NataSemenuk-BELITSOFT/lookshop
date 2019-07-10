@@ -8,31 +8,20 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="D:\lookshop\css\normalize.css"/>
+    <link rel="stylesheet" href="D:\lookshop\css\common.css">
     <link rel="stylesheet" href="D:\lookshop\css\icon-contact.css">
     <link rel="stylesheet" href="D:\lookshop\css\header.css">
     <link rel="stylesheet" href="D:\lookshop\css\slider.css">
     <link rel="stylesheet" href="D:\lookshop\css\contact.css">
+    <link rel="stylesheet" href="D:\lookshop\css\poster.css">
+    <link rel="stylesheet" href="D:\lookshop\css\catalog.css">
     <title>index</title>
     <style>
         body {
             position: relative;
             margin: 0;
         }
-        .poster {
-            position: relative;
-            width: 100%;
-            
-        }
-        img[src="poster.png"] {
-            position: absolute;
-            top: 50px;
-            width: 1125px;
-            transform: translate(-50%);
-            left: 50%;
-        }
-        .button-shop-now input[value="SHOP NOW"] {
-            font-family: 'Nunito', sans-serif;
-        }
+        
     
         /* @media all and (max-width: 768px)
         and (min-width: 640px)
@@ -108,25 +97,25 @@
             <div class="slider__items">
               <div class="slider__item slider__item_active">
                 <img src="slider.png" alt="c1">
-                <div class="button-shop-now">
+                <div class="button-shop-now button-shop-now_orange">
                   <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
               </div>
               </div>
               <div class="slider__item">
                 <img src="slider.png" alt="c1">
-                <div class="button-shop-now">
+                <div class="button-shop-now button-shop-now_orange">
                   <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
               </div>
               </div>
               <div class="slider__item">
                 <img src="slider.png" alt="c1">
-                <div class="button-shop-now">
+                <div class="button-shop-now button-shop-now_orange">
                   <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
               </div>
               </div>
               <div class="slider__item">
                 <img src="slider.png" alt="c1">
-                <div class="button-shop-now">
+                <div class="button-shop-now button-shop-now_orange">
                   <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
               </div>
               </div>
@@ -155,7 +144,60 @@
     </div>
     <div class="poster">
         <img src="poster.png">
+        <div class="button-shop-now button-shop-now_green">
+            <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+        </div>
     </div>
+    <section class="catalog">
+        <div class="catalog__menu">
+            <ul class="catalog__topmenu">
+                <li class="catalog__item"><a href="">what's hot?</a>
+                    <ul class="catalog__submenu">
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </li>
+                <li class="catalog__item"><a href="">designers</a>
+                    <ul class="catalog__submenu">
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </li>
+                <li class="catalog__item"><a href="">featured</a>
+                    <ul class="catalog__submenu">
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </li>
+                <li class="catalog__item"><a href="">latest</a>
+                    <ul class="catalog__submenu">
+                        <li>
+                            <div>
+                                <img src="MIMOSA_LACE_DRESS.png">
+                            </div>
+                            <a href=""></a></li>
+                        <li>
+                            <div>
+                                <img src="MIMOSA_LACE_DRESS.png">
+                            </div>
+                            <a href=""></a></li>
+                        <li>
+                            <div>
+                                <img src="MIMOSA_LACE_DRESS.png">
+                            </div>
+                            <a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
     <footer></footer>
 </body>
 </html>
