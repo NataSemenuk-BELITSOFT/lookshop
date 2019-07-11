@@ -9,8 +9,7 @@ footer a {
     color: rgb(192, 192, 192);
 }
 .footer__copyright-box {
-    display: flex;
-    justify-content: space-around;
+    position: relative;
     width: 100%;
     background: black;
     color: rgb(192, 192, 192);
@@ -21,4 +20,26 @@ footer a {
 
 .footer__vert-line {
     padding: 0 10px;
+}
+.footer__information {
+    position: relative;
+    width: 100%;
+    background: rgb(226, 226, 226); 
+    padding: 20px 0;   
+}
+.footer__information ul {
+    margin: 0; 
+    
+}
+
+.footer__information ul>p {
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 0;
+}
+.footer__information li {
+    list-style-type: none;
+    color: gray;
+    padding: 2px 0;
 }
