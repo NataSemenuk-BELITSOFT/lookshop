@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="D:\lookshop\css\common.css">
     <link rel="stylesheet" href="D:\lookshop\css\icon-contact.css">
     <link rel="stylesheet" href="D:\lookshop\css\header.css">
+    <link rel="stylesheet" href="D:\lookshop\css\nav.css">
     <link rel="stylesheet" href="D:\lookshop\css\slider.css">
     <link rel="stylesheet" href="D:\lookshop\css\contact.css">
     <link rel="stylesheet" href="D:\lookshop\css\poster.css">
@@ -23,7 +24,73 @@
             margin: 0;
         }
         
-    
+        .currency { 
+            align-self: center;
+            -moz-appearance: none; 
+            -webkit-appearance: none; 
+            font-weight: bold; 
+            border: none;
+            outline: none;
+            color: white; 
+            background-color: black;
+        }
+        .currency p {
+            padding: 20px;
+        }
+        .option {
+            border: none;
+            outline: none;
+        }
+        /*  */
+        .about-lookshop {
+            position: relative;
+            top: 50px;
+            transform: translate(-50%);
+            left: 50%;
+            width: 970px;
+            font-family: 'Nunito', sans-serif;
+            text-align: center;
+        }
+        .about-lookshop p {
+            color: gray;
+        }
+        .about-lookshop h2 {
+            color: rgb(77, 77, 77);
+        }
+        /*  */
+        .brands {
+            position: relative;
+            top: 50px;
+            transform: translate(-50%);
+            left: 50%;
+            width: 970px;
+            font-family: 'Nunito', sans-serif;
+            text-align: center;
+            border-bottom: 1px solid gray; 
+        }
+        /* .brands>p {
+            position: absolute;
+            top: -20px;
+            transform: translate(-50%);
+            left: 50%;  
+        }
+        .brands>p::before {
+            content: "";
+            position: absolute;
+            top: 6px;
+            left: -75px;
+            border-bottom: 1px solid black;
+            width: 100%;
+        }
+        .brands>p::after {
+            content: ""; 
+            position: absolute;
+            top: 6px;
+            right: -75px;
+            border-bottom: 1px solid black;
+            width: 100%;   
+        } */
+        
         /* @media all and (max-width: 768px)
         and (min-width: 640px)
         {
@@ -37,129 +104,154 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <a href="index.html" title="lookshop"><img src="logo.png"></a>
-            </div>
-            <ul class="topmenu">
-                <li class="items-of-navigation"><a href="#1">new</a>
-                    <ul class="submenu">
-                        <li><a href="#1">women</a></li>
-                        <li><a href="#1">men</a></li>
-                        <li><a href="#1">kids</a></li>
-                        <li><a href="#1">plus size</a></li>
-                    </ul>
-                </li>
-                <li class="items-of-navigation"><a href="#1">designers</a>
-                    <ul class="submenu">
-                        <li><a href="#1">Christian Dior</a></li>
-                        <li><a href="#1">Donatella Versace</a></li>
-                        <li><a href="#1">Michael Kors</a></li>
-                        <li><a href="#1">Karl Lagerfeld</a></li>
-                        <li><a href="#1">Miuccia Prada</a></li>
-                    </ul>
-                </li>
-                <li class="items-of-navigation"><a href="#1">women</a>
-                    <ul class="submenu">
-                        <li><a href="#1">blazers</a></li>
-                        <li><a href="#1">tops</a></li>
-                        <li><a href="#1">trousers</a></li>
-                        <li><a href="#1">skirts</a></li>
-                        <li><a href="#1">shoes</a></li>
-                        <li><a href="#1">accessories</a></li>    
-                    </ul>
-                </li>
-                <li class="items-of-navigation"><a href="#1">men</a>
-                    <ul class="submenu">
-                        <li><a href="#1">outerwear</a></li>
-                        <li><a href="#1">suits</a></li>
-                        <li><a href="#1">shirts</a></li>
-                        <li><a href="#1">jeans</a></li>
-                        <li><a href="#1">shoes</a></li>
-                        <li><a href="#1">accessories</a></li>
-                    </ul>
-                </li>
-                <li class="items-of-navigation"><a href="#1">kids</a>
-                    <ul class="submenu">
-                        <li><a href="#1">girl</a></li>
-                        <li><a href="#1">boy</a></li>
-                        <li><a href="#1">shoes</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <p>custome care: 888-23-4567</p>
+        <div class="header__account">
+            <p>my account</p>
+        </div>
+        <div class="currency"> 
+            <select name="currency" id="currency"> 
+                <option value="S"><p>$ US</p></option> 
+                <option value="RU"><p>RU</p></option> 
+                <option value="BY"><p>BY</p></option> 
+            </select> 
+        </div>
+    </header>
+    <nav>
+        <div class="logo">
+            <a href="index.html" title="lookshop"><img src="logo.png"></a>
+        </div>
+        <ul class="topmenu">
+            <li class="items-of-navigation"><a href="#1">new</a>
+                <ul class="submenu">
+                    <li><a href="#1">women</a></li>
+                    <li><a href="#1">men</a></li>
+                    <li><a href="#1">kids</a></li>
+                    <li><a href="#1">plus size</a></li>
+                </ul>
+            </li>
+            <li class="items-of-navigation"><a href="#1">designers</a>
+                <ul class="submenu">
+                    <li><a href="#1">Christian Dior</a></li>
+                    <li><a href="#1">Donatella Versace</a></li>
+                    <li><a href="#1">Michael Kors</a></li>
+                    <li><a href="#1">Karl Lagerfeld</a></li>
+                    <li><a href="#1">Miuccia Prada</a></li>
+                </ul>
+            </li>
+            <li class="items-of-navigation"><a href="#1">women</a>
+                <ul class="submenu">
+                    <li><a href="#1">blazers</a></li>
+                    <li><a href="#1">tops</a></li>
+                    <li><a href="#1">trousers</a></li>
+                    <li><a href="#1">skirts</a></li>
+                    <li><a href="#1">shoes</a></li>
+                    <li><a href="#1">accessories</a></li>    
+                </ul>
+            </li>
+            <li class="items-of-navigation"><a href="#1">men</a>
+                <ul class="submenu">
+                    <li><a href="#1">outerwear</a></li>
+                    <li><a href="#1">suits</a></li>
+                    <li><a href="#1">shirts</a></li>
+                    <li><a href="#1">jeans</a></li>
+                    <li><a href="#1">shoes</a></li>
+                    <li><a href="#1">accessories</a></li>
+                </ul>
+            </li>
+            <li class="items-of-navigation"><a href="#1">kids</a>
+                <ul class="submenu">
+                    <li><a href="#1">girl</a></li>
+                    <li><a href="#1">boy</a></li>
+                    <li><a href="#1">shoes</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="main_box">
         <div id="slider" class="slider">
             <ol class="slider__indicators">
-              <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
-              <li class="slider__indicator" data-slide-to="1"></li>
-              <li class="slider__indicator" data-slide-to="2"></li>
-              <li class="slider__indicator" data-slide-to="3"></li>
+                <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
+                <li class="slider__indicator" data-slide-to="1"></li>
+                <li class="slider__indicator" data-slide-to="2"></li>
+                <li class="slider__indicator" data-slide-to="3"></li>
             </ol>
             <div class="slider__items">
-              <div class="slider__item slider__item_active">
+                <div class="slider__item slider__item_active">
                 <img src="slider.png" alt="c1">
                 <div class="button-shop-now button-shop-now_orange">
-                  <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
-              </div>
-              </div>
-              <div class="slider__item">
+                    <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+                </div>
+                </div>
+                <div class="slider__item">
                 <img src="slider.png" alt="c1">
                 <div class="button-shop-now button-shop-now_orange">
-                  <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
-              </div>
-              </div>
-              <div class="slider__item">
+                    <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+                </div>
+                </div>
+                <div class="slider__item">
                 <img src="slider.png" alt="c1">
                 <div class="button-shop-now button-shop-now_orange">
-                  <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
-              </div>
-              </div>
-              <div class="slider__item">
+                    <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+                </div>
+                </div>
+                <div class="slider__item">
                 <img src="slider.png" alt="c1">
                 <div class="button-shop-now button-shop-now_orange">
-                  <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
-              </div>
-              </div>
+                    <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+                </div>
+                </div>
             </div>
             <a class="slider__control slider__control_prev" href="#" role="button"></a>
             <a class="slider__control slider__control_next" href="#" role="button"></a>
         </div>
         <script src="js\slider.js"></script>
-    </header>
-   
-    <div class="contact">
-        <div class="email-box">
-            <p>Stay updated</p>
-            <input type="text" placeholder="Your email address">
-            <input type="button" value="+">
+    
+        <div class="contact">
+            <div class="email-box">
+                <p>Stay updated</p>
+                <input type="text" placeholder="Your email address">
+                <input type="button" value="+">
+            </div>
+            <div class="contact-box">
+                <p>Find us here</p>
+                <ul class="contact-list">
+                    <li><a href="" class="item__contact"><i class="icon-twitter"></i></a></li>
+                    <li><a href="" class="item__contact"><i class="icon-facebook"></i></a></li>
+                    <li><a href="" class="item__contact"><i class="icon-pinterest-circled"></i></a></li>
+                </ul>
+            </div>
+            
         </div>
-        <div class="contact-box">
-            <p>Find us here</p>
-            <ul class="contact-list">
-                <li><a href="" class="item__contact"><i class="icon-twitter"></i></a></li>
-                <li><a href="" class="item__contact"><i class="icon-facebook"></i></a></li>
-                <li><a href="" class="item__contact"><i class="icon-pinterest-circled"></i></a></li>
-            </ul>
+        <div class="poster">
+            <img src="poster.png">
+            <div class="button-shop-now button-shop-now_green">
+                <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+            </div>
         </div>
-        
+        <section class="catalog">
+            <div class="catalog__menu">
+                <ul class="catalog__topmenu">
+                    <li class="catalog__item"><a href="#1">what's hot?</a></li>
+                    <li class="catalog__item"><a href="#2">designers</a></li>
+                    <li class="catalog__item"><a href="#3">featured</a></li>
+                    <li class="catalog__item"><a href="#4">latest</a></li>
+                </ul>
+            </div>
+            
+        </section>
+        <div class="brands">
+            <p>favorite</p>
+            <img src="index\brands.png">
+        </div>
+        <div class="about-lookshop">
+            <h2>About LookShop</h2>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet mauris. Mordi accumsan ipsum velit.
+                Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora
+                torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.
+            </p>
+        </div>
     </div>
-    <div class="poster">
-        <img src="poster.png">
-        <div class="button-shop-now button-shop-now_green">
-            <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
-        </div>
-    </div>
-    <section class="catalog">
-        <div class="catalog__menu">
-            <ul class="catalog__topmenu">
-                <li class="catalog__item"><a href="#1">what's hot?</a></li>
-                <li class="catalog__item"><a href="#2">designers</a></li>
-                <li class="catalog__item"><a href="#3">featured</a></li>
-                <li class="catalog__item"><a href="#4">latest</a></li>
-            </ul>
-        </div>
-        
-    </section>
     <footer>
         <div class="footer__cards-box">
             <p>We accept</p>
