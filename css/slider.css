@@ -2,7 +2,7 @@
     /* устанавливаем относительное позиционирование элементу */
     position: relative;
     display: inline-block;
-    width: 100vw;
+    width: 100%;
   }
 
   .slider__items {

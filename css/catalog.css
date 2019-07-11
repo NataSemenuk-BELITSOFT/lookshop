@@ -3,7 +3,6 @@
     justify-content: center;
     width: 100%;  
     top: 50px; 
-    border: 1px solid darkblue;
     font-family: 'Nunito', sans-serif;
 }
 .catalog__menu {
@@ -15,7 +14,6 @@
     border: 1px solid yellow;
 }
 .catalog__item {
-    border: 1px solid saddlebrown;
     padding: 10px 0;
     float: left;
     text-transform: uppercase;
@@ -25,20 +23,13 @@
     padding: 10px;
     color: rgb(71, 71, 71);
 }
-.catalog__item a:hover {
+.catalog__item a:active {
     color: white;
 }    
-.catalog__item:hover {
+.catalog__item:active {
     background-color: rgb(253, 145, 109);    
 } 
-
-/*  */
-
 .catalog__topmenu {
-    border: 1px solid palevioletred;
     padding: 0;
-    margin-bottom: 0; 
-}
-.catalog__submenu li, div{
-    display: inline-block;
+    margin-bottom: 0;
 }
