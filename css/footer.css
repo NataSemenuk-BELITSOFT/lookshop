@@ -3,16 +3,26 @@ footer {
     top: 50px;
     width: 100%;
     font-family: 'Nunito', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 footer a {
     color: rgb(192, 192, 192);
 }
 .footer__copyright-box {
-    position: relative;
+    display: flex;
+    justify-content: space-between; 
     width: 100%;
     background: black;
     color: rgb(192, 192, 192);
+}
+.footer__copyright {
+    padding-right: 40px; 
+}
+.footer__info {
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    padding-left: 40px; 
 }
 .footer__info p{
     display: inline-block;
@@ -22,17 +32,17 @@ footer a {
     padding: 0 10px;
 }
 .footer__information {
-    position: relative;
+    display: flex;
+    justify-content: center;
     width: 100%;
     background: rgb(226, 226, 226); 
     padding: 20px 0;   
 }
 .footer__information ul {
+    padding-left: 40px;
     margin: 0; 
-    
 }
-
-.footer__information ul>p {
+.footer__information p {
     color: rgb(71, 71, 71);
     font-weight: bold;
     font-size: 17px;
@@ -41,5 +51,42 @@ footer a {
 .footer__information li {
     list-style-type: none;
     color: gray;
-    padding: 2px 0;
+    padding: 5px 0;
+}
+.footer__information>div {
+    margin-left: 40px;
+    margin: 0 0 0 40px;
+    flex-basis: 20%;
+}
+.footer__information_icon-margin {
+    padding: 15px 0;
+}
+.footer__icon i {
+    border-radius: 100%;
+    padding: 8px;
+    margin: 5px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    font-size: 20px;
+}
+.footer__icon i:hover {
+    background-color: rgb(34, 34, 34);
+}
+.footer__cards-box {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: rgb(247, 247, 247);
+    color: gray;
+    font-size: 15px;
+}
+.footer__cards-box p {
+    padding: 0 10px;
+    margin: 0;
+    align-self: center;
+}
+.footer__information img {
+    width: 120px;
+    height: 120px;
+    align-self: center;
 }
