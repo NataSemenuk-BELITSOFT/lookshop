@@ -1,0 +1,49 @@
+        .about-lookshop {
+            position: relative;
+            top: 50px;
+            transform: translate(-50%);
+            left: 50%;
+            width: 970px;
+            font-family: 'Nunito', sans-serif;
+            text-align: center;
+        }
+        .about-lookshop p {
+            color: gray;
+        }
+        .about-lookshop h2 {
+            color: rgb(77, 77, 77);
+        }
+        .brands {
+            position: relative;
+            top: 50px;
+            transform: translate(-50%);
+            left: 50%;
+            width: 100%;
+            font-family: 'Nunito', sans-serif;
+            text-align: center;
+            padding-bottom: 15px; 
+            border-bottom: 1px solid gray; 
+        }
+        .brands__top-line {
+            background: #fff;
+            margin: 0 auto;
+            width: 100%;
+            padding-bottom: 15px; 
+            }
+
+        .brands__top-info {
+            border-bottom: 1px solid gray;
+            height: 0.5em;
+            margin-bottom: 0.5em;
+            position: relative;
+            }
+
+        .brands__top-info span {
+            background-color: #fff;
+            text-transform: uppercase;
+            display: block;
+            padding: 0px 5px;
+            position: absolute;
+            transform: translate(-50%);
+            left: 50%;
+        }
