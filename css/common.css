@@ -1,15 +1,15 @@
-.button-shop-now {
+.button-shop-now, 
+.button-add-to-card {
     position: absolute;
-    width: 140px;
   }
-  .button-shop-now input[type="button"] {
-    height: 45px;
-    width: 140px;
-    padding-right: 5px;  
+  .button-shop-now input[value="SHOP NOW"] {
+    height: 40px;
+    width: 130px;
+    padding-right: 10px;  
     border: none;
     outline: none;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
   }
   .button-shop-now::after {
     content: "";
@@ -18,7 +18,25 @@
     position: absolute;
     z-index: 5;
     right: 10px;
-    
+  }
+  .button-add-to-card input[value="ADD TO CARD"] {
+    height: 35px;
+    width: 120px;
+    padding-right: 30px;  
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 13px;
+  }
+  .button-add-to-card::after {
+    content: "+";
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    transform: translate(0, -45%);
+    top: 45%;
+    right: 5px;
   }
 
 

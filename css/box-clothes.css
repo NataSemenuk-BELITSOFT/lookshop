@@ -1,0 +1,49 @@
+.box-clothes {
+    display: flex;
+    justify-content: space-between;
+    width: 970px;
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    top: 50px;
+    padding-bottom: 60px;
+}
+.box-clothes__item {
+    width: 20%;
+}
+.box-clothes__item img {
+    width: 100%;
+}
+.box-clothes__item-info {
+    background-color: rgb(233, 233, 233);
+    position: relative;
+    padding-bottom: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+.box-clothes__item-info p {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.box-clothes__item-info h3 {
+    margin: 0;
+    text-align: center;
+}
+.button-add-to-card_orange-for-clothes {
+    position: absolute;
+    bottom: 8px;
+    transform: translate(-50%);
+    left: 50%;
+  }
+  .button-add-to-card_orange-for-clothes input[type="button"] {
+    
+    background: rgb(253, 145, 109);
+    box-shadow: inset 0 -3px 0px rgb(218, 95, 54);
+  }
+  .button-add-to-card_orange-for-clothes input[value="SHOP NOW"]:hover {
+    background-color:  rgba(218, 95, 54, 0.5);
+  }
+  .button-add-to-card_orange-for-clothes::after {
+    top: 40%; 
+  }
