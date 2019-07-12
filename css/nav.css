@@ -1,11 +1,13 @@
 .logo {
-    padding: 0 50px;
+    flex-grow: 1;
 }
 nav {
     display: flex;
     position: relative;
+    transform: translate(-50%);
+    left: 50%;
     flex-direction: row;
-    justify-content: space-between;
+    width: 970px;
     height: 80px;
     align-items: center;
     z-index: 100;
@@ -57,4 +59,43 @@ nav li:hover > .submenu {
     position: absolute;
     right: 0;
     top: 40%;
+}
+
+.nav__your-carts {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: gray;
+}
+.nav__your-carts input[placeholder="Your cart"] {
+    border:  1px solid rgb(187, 187, 187);
+    padding: 5px;
+    
+}
+.your-carts__counter {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+    border-left:  1px solid rgb(187, 187, 187);
+    border-right:  1px solid rgb(187, 187, 187);
+    border-bottom:  1px solid rgb(187, 187, 187);
+}
+
+.your-carts__counter i {
+    align-self: center;
+}
+.your-carts__counter p {
+    margin: 0;
+}
+.nav__input_cart {
+    position: relative;
+}
+.nav__pointer {
+    position: absolute;     
+    border: 5px solid transparent;	
+    border-top: 6px solid gray;
+    right: 5px;
+    transform: translate(0, -65%);
+    top: 65%;
 }
