@@ -38,6 +38,9 @@
     top: 45%;
     right: 5px;
   }
+  a {
+      text-decoration: none;
+  }
 
 
 

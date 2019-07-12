@@ -1,15 +1,21 @@
-.contact {
-    display: flex;
-    font-family: 'Poppins', sans-serif;
-    justify-content: space-around;
-    align-items: center;
+.contact-main {
     position: relative;
     bottom:  -50px;
     width: 100%;
-    height: 70px;
     background-color: rgb(204, 204, 204);
 }
-.email-box input[type="text"] {
+.contact {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    width: 970px;
+    height: 70px;
+}
+.contact-main__email-box input[type="text"] {
     height: 35px;
     padding-left: 5px; 
     font-style: italic;
@@ -17,7 +23,7 @@
     border: none;
     outline: none;
   }
-.email-box input[type="button"] {
+.contact-main__email-box input[type="button"] {
     height: 35px;
     width: 35px;
     background: rgb(253, 145, 109);
@@ -41,18 +47,16 @@ input[type="button"]:hover {
 .contact-list li {
     display: inline-block;
 }
-.item__contact i {
+.contact-list i {
     color: rgb(105, 105, 105);
     font-size: 25px;
 }
-.item__contact i:hover {
+.contact-list i:hover {
     color: rgb(59, 59, 59);
     font-size: 25px;
 }
-a {
-    text-decoration: none;
-}
-.email-box {
+
+.contact-main__email-box {
     display: flex;
     align-items: center;
 }
