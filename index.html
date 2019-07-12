@@ -23,24 +23,6 @@
             position: relative;
             margin: 0;
         }
-        
-        .currency { 
-            align-self: center;
-            -moz-appearance: none; 
-            -webkit-appearance: none; 
-            font-weight: bold; 
-            border: none;
-            outline: none;
-            color: white; 
-            background-color: black;
-        }
-        .currency p {
-            padding: 20px;
-        }
-        .option {
-            border: none;
-            outline: none;
-        }
         /*  */
         .about-lookshop {
             position: relative;
@@ -104,17 +86,24 @@
 </head>
 <body>
     <header>
-        <p>custome care: 888-23-4567</p>
-        <div class="header__account">
-            <p>my account</p>
+        <div class="header-box">
+            <p>custome care: 888-23-4567</p>
+            <div class="header__currency"> 
+                <select name="currency" id="currency"> 
+                    <option value="US">$ US</option> 
+                    <option value="RU">RU</option> 
+                    <option value="BY">BY</option> 
+                </select> 
+            </div>
+            <div class="header__account">
+                    <i class="icon-user"></i>
+                <p>my account</p>
+            </div>
+            <div class="header__search">
+                <i class="icon-search"></i>
+            </div>
         </div>
-        <div class="currency"> 
-            <select name="currency" id="currency"> 
-                <option value="S"><p>$ US</p></option> 
-                <option value="RU"><p>RU</p></option> 
-                <option value="BY"><p>BY</p></option> 
-            </select> 
-        </div>
+        
     </header>
     <nav>
         <div class="logo">

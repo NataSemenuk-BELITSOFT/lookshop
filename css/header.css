@@ -1,9 +1,50 @@
 header {
-    display: flex;
     background-color: black;
     color: white;
     font-family: 'Nunito', sans-serif;
 }
+.header-box {
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    width: 970px;
+    display: flex;
+}
+.header__account {
+    display: flex;
+    padding: 0 10px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
 header p {
     text-transform: uppercase;
+    flex-grow: 1;
+    margin: 8px 0;
+}
+.header__currency { 
+    padding: 0 10px;
+    border-left: 1px solid gray;          
+}
+header select[name="currency"] {
+    position: relative;
+    transform: translate(0, -50%);
+    top: 50%;
+    background-color: black;
+    font-weight: bold; 
+    color: white; 
+    border: none;
+    outline: none;   
+}
+.header__search {
+    display: flex;
+    padding: 0 10px;
+    border-right: 1px solid gray;
+    
+}
+.header__search i {
+    align-self: center;
+}
+.header__account i {
+    align-self: center;
+    padding-right: 5px; 
 }
