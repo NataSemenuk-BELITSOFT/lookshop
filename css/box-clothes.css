@@ -7,13 +7,34 @@
     left: 50%;
     top: 50px;
     padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;  
+    font-size: 15px;
 }
 .box-clothes__item {
     max-width: 20%;
 }
-.box-clothes__item img {
+/* .box-clothes__item img {
     width: 100%;
+} */
+.box-clothes__slider-clothes {
+    background: url("spr.png");
+    width: 177px;
+    height: 250px;
 }
+.box-clothes__slider-clothes_position-first {
+    background-position: left bottom; 
+}
+.box-clothes__slider-clothes_position-second {
+    background-position: 10px 20px; 
+}
+.box-clothes__slider-clothes_position-third {
+    background-position: 0 0; 
+}
+.box-clothes__slider-clothes_position-forth {
+    background-position: 0 0; 
+}
+
 .box-clothes__item-info {
     background-color: rgb(233, 233, 233);
     height: 70px;

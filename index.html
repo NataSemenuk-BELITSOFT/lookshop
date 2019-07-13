@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="D:\lookshop\css\icon-contact.css">
     <link rel="stylesheet" href="D:\lookshop\css\header.css">
     <link rel="stylesheet" href="D:\lookshop\css\nav.css">
-    <link rel="stylesheet" href="D:\lookshop\css\slider.css">
+    <link rel="stylesheet" href="D:\lookshop\css\slider-index.css">
     <link rel="stylesheet" href="D:\lookshop\css\contact.css">
     <link rel="stylesheet" href="D:\lookshop\css\poster.css">
     <link rel="stylesheet" href="D:\lookshop\css\catalog.css">
@@ -47,7 +47,13 @@
             }
             .footer__info {
                 padding-left: 20px; 
-            }         
+            }  
+            .box-clothes {
+               justify-content: space-around;
+            }
+            .box-clothes__item_del {
+                display: none;
+            }       
         }
         @media all and (max-width: 690px) {
             .footer__full-information {
@@ -234,7 +240,7 @@
         </div>
         <div class="box-clothes">
             <div class="box-clothes__item">
-                <img src="index\NADIA_DRESS.png">
+                <div class="box-clothes__slider-clothes box-clothes__slider-clothes_positio-first"></div>
                 <div class="box-clothes__item-info">
                     <p>nadia dress</p>
                     <h3>$ 64,95</h3>
@@ -244,7 +250,7 @@
                 </div>
             </div>
             <div class="box-clothes__item">
-                <img src="index\NADIA_DRESS.png">
+                <div class="box-clothes__slider-clothes box-clothes__slider-clothes_position-second"></div>
                 <div class="box-clothes__item-info">
                     <p>sofi blouse</p>
                     <h3>$ 26,95</h3>
@@ -254,7 +260,7 @@
                 </div>
             </div>
             <div class="box-clothes__item">
-                <img src="index\NADIA_DRESS.png">
+                <div class="box-clothes__slider-clothes box-clothes__slider-clothes_position-third"></div>
                 <div class="box-clothes__item-info">
                     <p>gooding shorts</p>
                     <h3>$ 79,95</h3>
@@ -263,8 +269,8 @@
                     </div>
                 </div>
             </div>
-            <div class="box-clothes__item">
-                <img src="index\NADIA_DRESS.png">
+            <div class="box-clothes__item box-clothes__item_del">
+                <div class="box-clothes__slider-clothes box-clothes__slider-clothes_position-forth"></div>
                 <div class="box-clothes__item-info">
                     <p>mimosa lace dress</p>
                     <h3>$ 76</h3>
