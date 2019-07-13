@@ -1,14 +1,16 @@
 .poster {
     display: flex;
     position: relative;
+    transform: translate(-50%);
+    left: 50%;
     justify-content: center;
-    width: 100%;  
+    max-width: 970px;  
     top: 50px; 
 }
 .button-shop-now_green {
     position: absolute;
     bottom: 2%;
-    right: 16%;
+    right: 8%;
 }
 .button-shop-now_green input[type="button"] {
     background: rgb(8, 164, 175);
@@ -24,7 +26,7 @@
     top: 40%; 
   }
   img[src="poster.png"] {
-    width: 970px;
+    width: 100%;
     display: inline-block;
     height: auto;
     margin: auto;

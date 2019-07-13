@@ -1,7 +1,7 @@
 .box-clothes {
     display: flex;
     justify-content: space-between;
-    width: 970px;
+    max-width: 970px;
     position: relative;
     transform: translate(-50%);
     left: 50%;
@@ -9,13 +9,14 @@
     padding-bottom: 60px;
 }
 .box-clothes__item {
-    width: 20%;
+    max-width: 20%;
 }
 .box-clothes__item img {
     width: 100%;
 }
 .box-clothes__item-info {
     background-color: rgb(233, 233, 233);
+    height: 70px;
     position: relative;
     padding-bottom: 50px;
     font-family: 'Nunito', sans-serif;

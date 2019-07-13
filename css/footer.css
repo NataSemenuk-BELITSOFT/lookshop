@@ -31,18 +31,24 @@ footer a {
 .footer__vert-line {
     padding: 0 10px;
 }
-.footer__information {
+.footer__full-information {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     background: rgb(226, 226, 226); 
     padding: 20px 0;   
 }
-.footer__information ul {
-    padding-left: 40px;
-    margin: 0; 
+.footer__information {
+    padding-left: 40px; 
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
 }
-.footer__information p {
+.footer__information ul {
+    padding: 0 10px;
+    margin: 0px; 
+}
+.footer__full-information p {
     color: rgb(71, 71, 71);
     font-weight: bold;
     font-size: 17px;
@@ -51,20 +57,20 @@ footer a {
 .footer__information li {
     list-style-type: none;
     color: gray;
-    padding: 5px 0;
+    padding: 2px 0;
 }
-.footer__information>div {
-    margin-left: 40px;
-    margin: 0 0 0 40px;
-    flex-basis: 20%;
+.full-information__icons {
+    margin-left: 10px;
+    
 }
 .footer__information_icon-margin {
     padding: 15px 0;
+    width: 143px;
 }
 .footer__icon i {
     border-radius: 100%;
-    padding: 8px;
-    margin: 5px;
+    padding: 5px;
+    margin: 3px;
     background-color: rgb(59, 59, 59);
     color: white;
     font-size: 20px;
@@ -85,8 +91,8 @@ footer a {
     margin: 0;
     align-self: center;
 }
-.footer__information img {
+.footer__full-information img {
     width: 120px;
     height: 120px;
-    align-self: center;
+    margin-right: 40px;
 }

@@ -3,7 +3,8 @@
             top: 50px;
             transform: translate(-50%);
             left: 50%;
-            width: 970px;
+            margin: 0 5px;
+            max-width: 970px;
             font-family: 'Nunito', sans-serif;
             text-align: center;
         }
@@ -18,11 +19,14 @@
             top: 50px;
             transform: translate(-50%);
             left: 50%;
-            width: 100%;
+            max-width: 100%;
             font-family: 'Nunito', sans-serif;
             text-align: center;
             padding-bottom: 15px; 
             border-bottom: 1px solid gray; 
+        }
+        .brands img {
+            width: 80%;
         }
         .brands__top-line {
             background: #fff;

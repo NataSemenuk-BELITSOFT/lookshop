@@ -1,24 +1,25 @@
 .logo {
     flex-grow: 1;
 }
-nav {
+.top-box {
     display: flex;
     position: relative;
     transform: translate(-50%);
     left: 50%;
     flex-direction: row;
-    width: 970px;
+    max-width: 970px;
     height: 80px;
+    padding: 5px;
     align-items: center;
     z-index: 100;
     font-family: 'Poppins', sans-serif;
 }
-nav ul {
+.top-box ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-nav li {
+.top-box li {
     padding: 3px;
 }
 .topmenu > li {
@@ -39,7 +40,7 @@ nav li {
 .submenu li {
     position: relative;
 }
-nav li:hover > .submenu {
+.top-box li:hover > .submenu {
     transform: rotateX(0deg);
 }
 .submenu  li  a {

@@ -12,7 +12,8 @@
     position: relative;
     transform: translate(-50%);
     left: 50%;
-    width: 970px;
+    max-width: 970px;
+    padding: 0 5px;
     height: 70px;
 }
 .contact-main__email-box input[type="text"] {

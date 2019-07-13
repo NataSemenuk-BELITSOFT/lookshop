@@ -26,16 +26,49 @@
             position: relative;
             margin: 0;
         }
-
-        /* @media all and (max-width: 768px)
-        and (min-width: 640px)
-        {
-
+        @media all and (max-width: 900px) {
+            .footer__information {
+                flex-wrap: wrap;
+                width: 60%;
+            }
+            .footer__information ul {
+                width: 40%;
+                padding-bottom: 20px;
+            }
+            .full-information__icons {
+                margin-left: 10px;
+                margin-right: 20px; 
+            }
+            .footer__copyright-box {
+                font-size: 12px;
+            }
+            .footer__copyright {
+                padding-right: 20px; 
+            }
+            .footer__info {
+                padding-left: 20px; 
+            }         
         }
-        @media all and (max-width: 640px)
-        {
-            
-        } */
+        @media all and (max-width: 690px) {
+            .footer__full-information {
+                display: none;
+            }
+            .footer__cards-box {
+                display: none;
+            }
+            .about-lookshop {
+                display: none;
+            }
+            .brands {
+                display: none;
+            }
+            .slider {
+                display: none;
+            } 
+            .poster {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -59,56 +92,58 @@
         </div>
         
     </header>
-    <nav>
+    <div class="top-box">
         <div class="logo">
             <a href="index.html" title="lookshop"><img src="logo.png"></a>
         </div>
-        <ul class="topmenu">
-            <li class="items-of-navigation"><a href="#1">new</a>
-                <ul class="submenu">
-                    <li><a href="#1">women</a></li>
-                    <li><a href="#1">men</a></li>
-                    <li><a href="#1">kids</a></li>
-                    <li><a href="#1">plus size</a></li>
-                </ul>
-            </li>
-            <li class="items-of-navigation"><a href="#1">designers</a>
-                <ul class="submenu">
-                    <li><a href="#1">Christian Dior</a></li>
-                    <li><a href="#1">Donatella Versace</a></li>
-                    <li><a href="#1">Michael Kors</a></li>
-                    <li><a href="#1">Karl Lagerfeld</a></li>
-                    <li><a href="#1">Miuccia Prada</a></li>
-                </ul>
-            </li>
-            <li class="items-of-navigation"><a href="#1">women</a>
-                <ul class="submenu">
-                    <li><a href="#1">blazers</a></li>
-                    <li><a href="#1">tops</a></li>
-                    <li><a href="#1">trousers</a></li>
-                    <li><a href="#1">skirts</a></li>
-                    <li><a href="#1">shoes</a></li>
-                    <li><a href="#1">accessories</a></li>    
-                </ul>
-            </li>
-            <li class="items-of-navigation"><a href="#1">men</a>
-                <ul class="submenu">
-                    <li><a href="#1">outerwear</a></li>
-                    <li><a href="#1">suits</a></li>
-                    <li><a href="#1">shirts</a></li>
-                    <li><a href="#1">jeans</a></li>
-                    <li><a href="#1">shoes</a></li>
-                    <li><a href="#1">accessories</a></li>
-                </ul>
-            </li>
-            <li class="items-of-navigation"><a href="#1">kids</a>
-                <ul class="submenu">
-                    <li><a href="#1">girl</a></li>
-                    <li><a href="#1">boy</a></li>
-                    <li><a href="#1">shoes</a></li>
-                </ul>
-            </li>
-        </ul>
+        <nav>
+            <ul class="topmenu">
+                <li class="items-of-navigation"><a href="#1">new</a>
+                    <ul class="submenu">
+                        <li><a href="#1">women</a></li>
+                        <li><a href="#1">men</a></li>
+                        <li><a href="#1">kids</a></li>
+                        <li><a href="#1">plus size</a></li>
+                    </ul>
+                </li>
+                <li class="items-of-navigation"><a href="#1">designers</a>
+                    <ul class="submenu">
+                        <li><a href="#1">Christian Dior</a></li>
+                        <li><a href="#1">Donatella Versace</a></li>
+                        <li><a href="#1">Michael Kors</a></li>
+                        <li><a href="#1">Karl Lagerfeld</a></li>
+                        <li><a href="#1">Miuccia Prada</a></li>
+                    </ul>
+                </li>
+                <li class="items-of-navigation"><a href="#1">women</a>
+                    <ul class="submenu">
+                        <li><a href="#1">blazers</a></li>
+                        <li><a href="#1">tops</a></li>
+                        <li><a href="#1">trousers</a></li>
+                        <li><a href="#1">skirts</a></li>
+                        <li><a href="#1">shoes</a></li>
+                        <li><a href="#1">accessories</a></li>    
+                    </ul>
+                </li>
+                <li class="items-of-navigation"><a href="#1">men</a>
+                    <ul class="submenu">
+                        <li><a href="#1">outerwear</a></li>
+                        <li><a href="#1">suits</a></li>
+                        <li><a href="#1">shirts</a></li>
+                        <li><a href="#1">jeans</a></li>
+                        <li><a href="#1">shoes</a></li>
+                        <li><a href="#1">accessories</a></li>
+                    </ul>
+                </li>
+                <li class="items-of-navigation"><a href="#1">kids</a>
+                    <ul class="submenu">
+                        <li><a href="#1">girl</a></li>
+                        <li><a href="#1">boy</a></li>
+                        <li><a href="#1">shoes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
         <div class="nav__your-carts">
             <div class="nav__input_cart">
                 <input type="text" placeholder="Your cart">
@@ -120,7 +155,7 @@
                 <p>0 items | $ 0</p>
             </div>
         </div>
-    </nav>
+    </div>
     <div class="main_box">
         <div id="slider" class="slider">
             <ol class="slider__indicators">
@@ -158,7 +193,6 @@
             <a class="slider__control slider__control_prev" href="#" role="button"></a>
             <a class="slider__control slider__control_next" href="#" role="button"></a>
         </div>
-        <script src="js\slider.js"></script>
         <div class="contact-main">
             <div class="contact">
             <div class="contact-main__email-box">
@@ -212,8 +246,8 @@
             <div class="box-clothes__item">
                 <img src="index\NADIA_DRESS.png">
                 <div class="box-clothes__item-info">
-                    <p>nadia dress</p>
-                    <h3>$ 64,95</h3>
+                    <p>sofi blouse</p>
+                    <h3>$ 26,95</h3>
                     <div class="button-add-to-card button-add-to-card_orange-for-clothes">
                         <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
                     </div>
@@ -222,8 +256,8 @@
             <div class="box-clothes__item">
                 <img src="index\NADIA_DRESS.png">
                 <div class="box-clothes__item-info">
-                    <p>nadia dress</p>
-                    <h3>$ 64,95</h3>
+                    <p>gooding shorts</p>
+                    <h3>$ 79,95</h3>
                     <div class="button-add-to-card button-add-to-card_orange-for-clothes">
                         <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
                     </div>
@@ -232,8 +266,8 @@
             <div class="box-clothes__item">
                 <img src="index\NADIA_DRESS.png">
                 <div class="box-clothes__item-info">
-                    <p>nadia dress</p>
-                    <h3>$ 64,95</h3>
+                    <p>mimosa lace dress</p>
+                    <h3>$ 76</h3>
                     <div class="button-add-to-card button-add-to-card_orange-for-clothes">
                         <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
                     </div>
@@ -264,37 +298,39 @@
                 <img src="index\CARDS.png">
             </div>    
         </div>
-        <div class="footer__information">
-            <ul><p>Customer Service</p>
-                <li>Contact</li>
-                <li>FAQ</li>
-                <li>Terms of payment</li>
-                <li>Terms of sate</li>
-                <li>Delivery terms and conditions</li>
-                <li>Returns and Refunds</li>
-            </ul>
-            <ul><p>Information</p>
-                <li>Affiliate</li>
-                <li>Cookies</li>
-                <li>How to Shop</li>
-                <li>About Nelly</li>
-                <li>Investor relations</li>
-            </ul>
-            <ul><p>Campaigns</p>
-                <li>Evening dresses</li>
-                <li>Make up</li>
-                <li>Fashion forward</li>
-                <li>training clothes</li>
-                <li>Special Occasion Dresses</li>
-            </ul>
-            <ul><p>Stores</p>
-                <li>Paris</li>
-                <li>New York</li>
-                <li>London</li>
-                <li>Mdrid</li>
-                <li>Tokio</li>
-            </ul>
-            <div><p>Social</p>
+        <div class="footer__full-information">
+            <div class="footer__information">
+                <ul><p>Customer Service</p>
+                    <li>Contact</li>
+                    <li>FAQ</li>
+                    <li>Terms of payment</li>
+                    <li>Terms of sate</li>
+                    <li>Delivery terms and conditions</li>
+                    <li>Returns and Refunds</li>
+                </ul>
+                <ul><p>Information</p>
+                    <li>Affiliate</li>
+                    <li>Cookies</li>
+                    <li>How to Shop</li>
+                    <li>About Nelly</li>
+                    <li>Investor relations</li>
+                </ul>
+                <ul><p>Campaigns</p>
+                    <li>Evening dresses</li>
+                    <li>Make up</li>
+                    <li>Fashion forward</li>
+                    <li>training clothes</li>
+                    <li>Special Occasion Dresses</li>
+                </ul>
+                <ul><p>Stores</p>
+                    <li>Paris</li>
+                    <li>New York</li>
+                    <li>London</li>
+                    <li>Mdrid</li>
+                    <li>Tokio</li>
+                </ul>
+            </div> 
+            <div class="full-information__icons"><p>Social</p>
                 <div class="footer__information_icon-margin">
                     <a href="" class="footer__icon"><i class="icon-twitter"></i></a>
                     <a href="" class="footer__icon"><i class="icon-pinterest-circled"></i></a>
@@ -307,7 +343,7 @@
                 </div>
             </div>
             <img src="index\label_secured.png">
-        </div> 
+        </div>
         <div class="footer__copyright-box">
             <div class="footer__info">
                 <a href="#5">
@@ -337,5 +373,6 @@
             
         </div>
     </footer>
+    <script src="js\slider.js"></script>
 </body>
 </html>
