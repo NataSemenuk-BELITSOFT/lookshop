@@ -1,0 +1,17 @@
+aside {
+    font-family: 'Nunito', sans-serif;
+    float: right;
+    width: 200px;
+}
+.aside__name-box {
+    width: 200px;
+    float: right;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.aside__name-box p {
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    margin: 0;  
+}

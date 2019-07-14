@@ -9,9 +9,17 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="D:\lookshop\css\normalize.css"/>
     <link rel="stylesheet" href="D:\lookshop\css\common.css">
+    <link rel="stylesheet" href="D:\lookshop\css\aside.css">
     <link rel="stylesheet" href="D:\lookshop\css\slider-products.css">
     <link rel="stylesheet" href="D:\lookshop\css\accordion.css">
     <style>
+        main {
+            border: 1px solid black;
+            position: relative;
+            transform: translate(-50%);
+            left: 50%;
+            max-width: 970px;
+        }
     </style>
 </head>
 <body>
@@ -51,44 +59,54 @@
         <a class="slider__control slider__control_prev" href="#" role="button"></a>
         <a class="slider__control slider__control_next" href="#" role="button"></a>
     </div>
+    <main>
+        <aside>
+            <div class="aside__name-box">
+                <p>categories</p>
+            </div>
+            <ul class="accordion" data-accordion="open">
+                <li>
+                    <span class="accordion-header">new</span>
+                    <ul class="accordion-body">
+                        <li><span>clothes</span></li>
+                        <li><span>shoes</span></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="accordion-header">gesigners</span>
+                    <ul class="accordion-body">
+                        <li><span>clothes</span></li>
+                        <li><span>shoes</span></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="accordion-header">women</span>
+                    <ul class="accordion-body">
+                        <li><span>clothes</span></li>
+                        <li><span>shoes</span></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="accordion-header">men</span>
+                    <ul class="accordion-body">
+                        <li><span>clothes</span></li>
+                        <li><span>shoes</span></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="accordion-header">clearance</span>
+                    <ul class="accordion-body">
+                        <li><span>clothes</span></li>
+                        <li><span>shoes</span></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="aside__name-box">
+                <p>on sale</p>
+            </div>
+        </aside>
+    </main>
     
-    <ul class="accordion" data-accordion="open">
-        <li>
-            <span class="accordion-header">new</span>
-            <ul class="accordion-body">
-                <li><span>clothes</span></li>
-                <li><span>shoes</span></li>
-            </ul>
-        </li>
-        <li>
-            <span class="accordion-header">gesigners</span>
-            <ul class="accordion-body">
-                <li><span>clothes</span></li>
-                <li><span>shoes</span></li>
-            </ul>
-        </li>
-        <li>
-            <span class="accordion-header">women</span>
-            <ul class="accordion-body">
-                <li><span>clothes</span></li>
-                <li><span>shoes</span></li>
-            </ul>
-        </li>
-        <li>
-            <span class="accordion-header">men</span>
-            <ul class="accordion-body">
-                <li><span>clothes</span></li>
-                <li><span>shoes</span></li>
-            </ul>
-        </li>
-        <li>
-            <span class="accordion-header">clearance</span>
-            <ul class="accordion-body">
-                <li><span>clothes</span></li>
-                <li><span>shoes</span></li>
-            </ul>
-        </li>
-    </ul>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
