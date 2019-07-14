@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="D:\lookshop\css\normalize.css"/>
+    <link rel="stylesheet" href="D:\lookshop\css\common.css">
+    <link rel="stylesheet" href="D:\lookshop\css\icon-contact.css">
+    <link rel="stylesheet" href="D:\lookshop\css\header.css">
+    <link rel="stylesheet" href="D:\lookshop\css\nav.css">
+    <link rel="stylesheet" href="D:\lookshop\css\slider-index.css">
+    <link rel="stylesheet" href="D:\lookshop\css\contact.css">
+    <link rel="stylesheet" href="D:\lookshop\css\poster.css">
+    <link rel="stylesheet" href="D:\lookshop\css\catalog.css">
+    <link rel="stylesheet" href="D:\lookshop\css\clearance.css">
+    <link rel="stylesheet" href="D:\lookshop\css\box-clothes.css">
+    <link rel="stylesheet" href="D:\lookshop\css\brands-&-about-lookshop.css">
+    <link rel="stylesheet" href="D:\lookshop\css\footer.css">
+    <style>
+        .box-clothes__sprite-clothes {
+            background: url("spr.png");
+            width: 220px;
+            height: 290px;
+        }
+        .box-clothes__sprite-clothes_position-first {
+            background-position: 0 0; 
+        }
+        .box-clothes__sprite-clothes_position-second {
+            background-position: 720px 0; 
+        }
+        .box-clothes__sprite-clothes_position-third {
+            background-position: 470px 0; 
+        }
+        .box-clothes__sprite-clothes_position-forth {
+            background-position: 220px 0; 
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <div class="header-box">
+                <p>custome care: 888-23-4567</p>
+                <div class="header__currency"> 
+                    <select name="currency" id="currency"> 
+                        <option value="US">$ US</option> 
+                        <option value="RU">RU</option> 
+                        <option value="BY">BY</option> 
+                    </select> 
+                </div>
+                <div class="header__account">
+                        <i class="icon-user"></i>
+                    <p>my account</p>
+                </div>
+                <div class="header__search">
+                    <i class="icon-search"></i>
+                </div>
+            </div>
+            
+        </header>
+        <div class="top-box">
+            <div class="logo">
+                <a href="index.html" title="lookshop"><img src="logo.png"></a>
+            </div>
+            <nav>
+                <ul class="topmenu">
+                    <li class="items-of-navigation"><a href="#1">new</a>
+                        <ul class="submenu">
+                            <li><a href="#1">women</a></li>
+                            <li><a href="#1">men</a></li>
+                            <li><a href="#1">kids</a></li>
+                            <li><a href="#1">plus size</a></li>
+                        </ul>
+                    </li>
+                    <li class="items-of-navigation"><a href="#1">designers</a>
+                        <ul class="submenu">
+                            <li><a href="#1">Christian Dior</a></li>
+                            <li><a href="#1">Donatella Versace</a></li>
+                            <li><a href="#1">Michael Kors</a></li>
+                            <li><a href="#1">Karl Lagerfeld</a></li>
+                            <li><a href="#1">Miuccia Prada</a></li>
+                        </ul>
+                    </li>
+                    <li class="items-of-navigation"><a href="#1">women</a>
+                        <ul class="submenu">
+                            <li><a href="#1">blazers</a></li>
+                            <li><a href="#1">tops</a></li>
+                            <li><a href="#1">trousers</a></li>
+                            <li><a href="#1">skirts</a></li>
+                            <li><a href="#1">shoes</a></li>
+                            <li><a href="#1">accessories</a></li>    
+                        </ul>
+                    </li>
+                    <li class="items-of-navigation"><a href="#1">men</a>
+                        <ul class="submenu">
+                            <li><a href="#1">outerwear</a></li>
+                            <li><a href="#1">suits</a></li>
+                            <li><a href="#1">shirts</a></li>
+                            <li><a href="#1">jeans</a></li>
+                            <li><a href="#1">shoes</a></li>
+                            <li><a href="#1">accessories</a></li>
+                        </ul>
+                    </li>
+                    <li class="items-of-navigation"><a href="#1">kids</a>
+                        <ul class="submenu">
+                            <li><a href="#1">girl</a></li>
+                            <li><a href="#1">boy</a></li>
+                            <li><a href="#1">shoes</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav__your-carts">
+                <div class="nav__input_cart">
+                    <input type="text" placeholder="Your cart">
+                    <div class="nav__pointer"></div>
+                </div>
+                
+                <div class="your-carts__counter">
+                    <i class="icon-shopping-bag"></i>
+                    <p>0 items | $ 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="main_box">
+            <div id="slider" class="slider">
+                <ol class="slider__indicators">
+                    <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
+                    <li class="slider__indicator" data-slide-to="1"></li>
+                    <li class="slider__indicator" data-slide-to="2"></li>
+                    <li class="slider__indicator" data-slide-to="3"></li>
+                </ol>
+                <div class="slider__items">
+                    <div class="slider__item slider__item_active">
+                    <img src="slider.png" alt="c1">
+                    <div class="button-shop-now button-shop-now_orange">
+                        <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+                    </div>
+                    </div>
+                    <div class="slider__item">
+                    <img src="slider.png" alt="c1">
+                    <div class="button-shop-now button-shop-now_orange">
+                        <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+                    </div>
+                    </div>
+                    <div class="slider__item">
+                    <img src="slider.png" alt="c1">
+                    <div class="button-shop-now button-shop-now_orange">
+                        <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+                    </div>
+                    </div>
+                    <div class="slider__item">
+                    <img src="slider.png" alt="c1">
+                    <div class="button-shop-now button-shop-now_orange">
+                        <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+                    </div>
+                    </div>
+                </div>
+                <a class="slider__control slider__control_prev" href="#" role="button"></a>
+                <a class="slider__control slider__control_next" href="#" role="button"></a>
+            </div>
+            <div class="contact-main">
+                <div class="contact">
+                <div class="contact-main__email-box">
+                    <p>Stay updated</p>
+                    <input type="text" placeholder="Your email address">
+                    <input type="button" value="+">
+                </div>
+                <div class="contact-box">
+                    <p>Find us here</p>
+                    <ul class="contact-list">
+                        <li><a href="" class="contact-list__item"><i class="icon-twitter"></i></a></li>
+                        <li><a href="" class="contact-list__item"><i class="icon-facebook"></i></a></li>
+                        <li><a href="" class="contact-list__item"><i class="icon-pinterest-circled"></i></a></li>
+                    </ul>
+                </div>
+            </div>    
+            </div>
+            <div class="poster">
+                <img src="poster.png">
+                <div class="button-shop-now button-shop-now_green">
+                    <input type="button" value="SHOP NOW" onClick='location.href="https://www.google.ru/"'>
+                </div>
+            </div>
+            <section class="catalog">
+                <div class="catalog__menu">
+                    <ul class="catalog__topmenu">
+                        <li class="catalog__item"><a href="#1">what's hot?</a></li>
+                        <li class="catalog__item"><a href="#2">designers</a></li>
+                        <li class="catalog__item"><a href="#3">featured</a></li>
+                        <li class="catalog__item"><a href="#4">latest</a></li>
+                    </ul>
+                </div>
+                
+            </section>
+            <div class="clearance">
+                <div class="clearance__line"></div>    
+                <img src="index\clearance.png">
+                
+            </div>
+    
+            <div class="box-clothes">
+                    <div class="box-clothes__item">
+                        <div class="box-clothes__sprite-clothes box-clothes__sprite-clothes_positio-first"></div>
+                        <div class="box-clothes__item-info">
+                            <p>nadia dress</p>
+                            <h3>$ 64,95</h3>
+                            <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                                <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-clothes__item">
+                        <div class="box-clothes__sprite-clothes box-clothes__sprite-clothes_position-second"></div>
+                        <div class="box-clothes__item-info">
+                            <p>sofi blouse</p>
+                            <h3>$ 26,95</h3>
+                            <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                                <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-clothes__item">
+                        <div class="box-clothes__sprite-clothes box-clothes__sprite-clothes_position-third"></div>
+                        <div class="box-clothes__item-info">
+                            <p>gooding shorts</p>
+                            <h3>$ 79,95</h3>
+                            <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                                <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-clothes__item box-clothes__item_del">
+                        <div class="box-clothes__sprite-clothes box-clothes__sprite-clothes_position-forth"></div>
+                        <div class="box-clothes__item-info">
+                            <p>mimosa lace dress</p>
+                            <h3>$ 76</h3>
+                            <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                                <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            <div class="brands">
+                <div class="brands__top-line">
+                    <div class="brands__top-info">
+                        <span>favourite brands</span>
+                    </div>
+                </div>
+                <img src="index\brands.png">
+            </div>
+            <div class="about-lookshop">
+                <h2>About LookShop</h2>
+                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                    bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet mauris. Mordi accumsan ipsum velit.
+                    Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.
+                </p>
+            </div>
+        </div>
+        <footer>
+            <div class="footer__cards-box">
+                <p>We accept</p>
+                <div>
+                    <img src="index\CARDS.png">
+                </div>    
+            </div>
+            <div class="footer__full-information">
+                <div class="footer__information">
+                    <ul><p>Customer Service</p>
+                        <li>Contact</li>
+                        <li>FAQ</li>
+                        <li>Terms of payment</li>
+                        <li>Terms of sate</li>
+                        <li>Delivery terms and conditions</li>
+                        <li>Returns and Refunds</li>
+                    </ul>
+                    <ul><p>Information</p>
+                        <li>Affiliate</li>
+                        <li>Cookies</li>
+                        <li>How to Shop</li>
+                        <li>About Nelly</li>
+                        <li>Investor relations</li>
+                    </ul>
+                    <ul><p>Campaigns</p>
+                        <li>Evening dresses</li>
+                        <li>Make up</li>
+                        <li>Fashion forward</li>
+                        <li>training clothes</li>
+                        <li>Special Occasion Dresses</li>
+                    </ul>
+                    <ul><p>Stores</p>
+                        <li>Paris</li>
+                        <li>New York</li>
+                        <li>London</li>
+                        <li>Mdrid</li>
+                        <li>Tokio</li>
+                    </ul>
+                </div> 
+                <div class="full-information__icons"><p>Social</p>
+                    <div class="footer__information_icon-margin">
+                        <a href="" class="footer__icon"><i class="icon-twitter"></i></a>
+                        <a href="" class="footer__icon"><i class="icon-pinterest-circled"></i></a>
+                        <a href="" class="footer__icon"><i class="icon-facebook"></i></a>
+                    </div>
+                    <div class="footer__information_icon-margin">
+                        <a href="" class="footer__icon"><i class="icon-gplus"></i></a>
+                        <a href="" class="footer__icon"><i class="icon-twitter-1"></i></a>
+                        <a href="" class="footer__icon"><i class="icon-vkontakte"></i></a>
+                    </div>
+                </div>
+                <img src="index\label_secured.png">
+            </div>
+            <div class="footer__copyright-box">
+                <div class="footer__info">
+                    <a href="#5">
+                        <p>Privacy & Cookies</p>
+                        <p class="footer__vert-line">|</p>
+                    </a>
+                    <a href="#6">
+                        <p>Terms & Conditions</p>
+                        <p class="footer__vert-line">|</p>
+                    </a>
+                    <a href="#7">
+                        <p>Accessibility</p>
+                        <p class="footer__vert-line">|</p>
+                    </a>
+                    <a href="#8">
+                        <p>Store Directory</p>
+                        <p class="footer__vert-line">|</p>
+                    </a>
+                    <a href="#9">
+                        <p>About Us</p>
+                    </a>
+                </div>
+                <div class="footer__copyright">
+                    <p>&copy;LookShop</p>
+                    <p>All Right Reserved</p>
+                </div>
+                
+            </div>
+        </footer>
+        <script src="js\slider.js"></script>
+    </body>
+    </html>

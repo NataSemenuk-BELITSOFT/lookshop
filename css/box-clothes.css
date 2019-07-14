@@ -6,35 +6,29 @@
     transform: translate(-50%);
     left: 50%;
     top: 50px;
-    padding-bottom: 60px;
-    padding-left: 20px;
-    padding-right: 20px;  
+    padding-bottom: 60px;  
     font-size: 15px;
 }
 .box-clothes__item {
-    max-width: 20%;
+    width: 220px;
 }
-/* .box-clothes__item img {
-    width: 100%;
-} */
-.box-clothes__slider-clothes {
+.box-clothes__sprite-clothes {
     background: url("spr.png");
-    width: 177px;
-    height: 250px;
+    width: 220px;
+    height: 290px;
 }
-.box-clothes__slider-clothes_position-first {
-    background-position: left bottom; 
-}
-.box-clothes__slider-clothes_position-second {
-    background-position: 10px 20px; 
-}
-.box-clothes__slider-clothes_position-third {
+.box-clothes__sprite-clothes_position-first {
     background-position: 0 0; 
 }
-.box-clothes__slider-clothes_position-forth {
-    background-position: 0 0; 
+.box-clothes__sprite-clothes_position-second {
+    background-position: 720px 0; 
 }
-
+.box-clothes__sprite-clothes_position-third {
+    background-position: 470px 0; 
+}
+.box-clothes__sprite-clothes_position-forth {
+    background-position: 220px 0; 
+}
 .box-clothes__item-info {
     background-color: rgb(233, 233, 233);
     height: 70px;
@@ -57,15 +51,15 @@
     bottom: 8px;
     transform: translate(-50%);
     left: 50%;
-  }
-  .button-add-to-card_orange-for-clothes input[type="button"] {
+}
+.button-add-to-card_orange-for-clothes input[type="button"] {
     
     background: rgb(253, 145, 109);
     box-shadow: inset 0 -3px 0px rgb(218, 95, 54);
-  }
-  .button-add-to-card_orange-for-clothes input[value="SHOP NOW"]:hover {
+}
+.button-add-to-card_orange-for-clothes input[value="SHOP NOW"]:hover {
     background-color:  rgba(218, 95, 54, 0.5);
-  }
-  .button-add-to-card_orange-for-clothes::after {
+}
+.button-add-to-card_orange-for-clothes::after {
     top: 40%; 
-  }
+}
