@@ -1,11 +1,10 @@
 aside {
     font-family: 'Nunito', sans-serif;
     float: right;
-    width: 200px;
+    width: 250px;
 }
 .aside__name-box {
-    width: 200px;
-    float: right;
+    width: 250px;
     background-color: black;
     margin-bottom: 10px;
 }
@@ -14,4 +13,60 @@ aside {
     color: white;
     padding: 10px;
     margin: 0;  
+}
+
+.aside__size {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.size__item {
+    padding: 5px 0;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: rgb(211, 211, 211);
+}
+.size__item a {
+    color: rgb(49, 49, 49);
+}
+.size__item a:active {
+    color: white;
+}    
+.size__item:active {
+    background-color: rgb(253, 145, 109);
+    border-color: rgb(253, 145, 109);     
+}
+.size__item:hover {
+    background-color: rgb(253, 145, 109);
+    border-color: rgb(253, 145, 109);     
+} 
+.size__item a:hover {
+    color: white;
+}    
+.size__topmenu {
+    padding: 0;
+    margin-bottom: 0;
+}
+.aside__sale-clothes {
+    border-top: 1px solid rgba(179, 179, 179, 0);
+    border-left: 1px solid rgba(179, 179, 179, 0);
+    border-right: 1px solid rgba(179, 179, 179, 0);
+    border-bottom: 1px solid rgb(179, 179, 179);
+    padding-bottom: 35px; 
+    margin-top: 5px; 
+}
+.aside__sale-clothes p {
+    text-transform: uppercase;
+}
+.sale-clothes__img {
+    float: left;
+    margin-right:10px;
+}
+.sale-clothes__price {
+    margin: 0;
+    padding: 0;
+    color: rgb(253, 145, 109);
+    font-weight: bold;
+    font-size: 20px;
 }
