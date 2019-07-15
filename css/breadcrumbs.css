@@ -1,0 +1,14 @@
+.breadcrumbs {
+    position: relative;
+    max-width: 970px;
+    transform: translate(-50%);
+    left: 50%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(82, 82, 82);
+    padding: 10px 0;
+}
+.breadcrumbs a {
+    color: rgb(82, 82, 82);
+}
