@@ -1,5 +1,6 @@
 .button-shop-now, 
 .button-add-to-card {
+  font-family: 'Nunito', sans-serif;
     position: absolute;
   }
   .button-shop-now input[value="SHOP NOW"] {
