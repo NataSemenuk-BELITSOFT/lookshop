@@ -1,7 +1,7 @@
 aside {
     font-family: 'Nunito', sans-serif;
-    float: right;
     width: 250px;
+    margin-top: 26px; 
 }
 .aside__name-box {
     width: 250px;
