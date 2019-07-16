@@ -3,10 +3,10 @@ main {
     transform: translate(-50%);
     left: 50%;
     max-width: 970px;
+    font-family: 'Nunito', sans-serif;
 }
 .main__photography-view {
     display: flex;
-    font-family: 'Nunito', sans-serif;
 }
 .phtography-view__img {
     position:  relative;
@@ -105,4 +105,68 @@ main {
     font-size: 16px;
     padding: 12px 0;
     margin: 0;
+  }
+  .button-add-to-card-in-product {
+      right: 340px;
+  }
+  .phtography-view__select-size-color {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+      padding: 10px 0;
+      margin-bottom: 25px;
+  }
+  .phtography-view__colors {
+      display: flex;
+  }
+  .phtography-view__color-item {
+      width: 30px;
+      height: 30px;
+      margin-left: 2px; 
+  }
+  .phtography-view__color-item_lightgray {
+    background-color: rgb(224, 224, 224);
+  }
+  .phtography-view__color-item_smoke {
+    background-color: gray;
+  }
+  .phtography-view__color-item_cedar {
+    background-color: rgb(99, 81, 81);
+  }
+  .phtography-view__color-item_darkgrey {
+    background-color: rgb(77, 75, 75);
+  }
+  .phtography-view__color-item_blue {
+    background-color: rgb(140, 179, 252);
+  }
+  .main__contact {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 190px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 15px 0;
+  }
+  .main__contact a {
+      padding: 10px;
+      border: 3px solid gray;
+      border-radius: 100%;
+  }
+  .main__contact i {
+      color: gray;
+      font-size: 25px;      
+  }
+  .main__contact a:hover {
+      background-color: rgb(240, 232, 232);
+  }
+  .main__contact span {
+      display: flex;
+  }
+  .main__contact p {
+      padding-left: 10px; 
+      align-self: center;
+      text-transform: uppercase;
+      margin: 0;
   }

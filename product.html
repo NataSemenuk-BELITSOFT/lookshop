@@ -8,9 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="D:\lookshop\css\normalize.css"/>
-    <link rel="stylesheet" href="D:\lookshop\css\product-button.css">
     <link rel="stylesheet" href="D:\lookshop\css\common.css">
     <link rel="stylesheet" href="D:\lookshop\css\photography-view.css">
+    <link rel="stylesheet" href="D:\lookshop\css\icon-contact.css">
 </head>
 <body>
     <main>
@@ -34,15 +34,47 @@
                 <p class="phtography-view__name">Sofi Blouse</p>
                 <p class="phtography-view__price">$ 45.55</p>
                 <p>Lorem Ipsu is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div class="phtography-view__select-size-color">
+                    <select name="sort-by"> 
+                        <option value="US">Data</option> 
+                        <option value="RU">Price</option> 
+                        <option value="BY">Country</option> 
+                    </select> 
+                    <div class="phtography-view__colors">
+                        <div class="phtography-view__color-item phtography-view__color-item_lightgray"></div>
+                        <div class="phtography-view__color-item phtography-view__color-item_smoke"></div>
+                        <div class="phtography-view__color-item phtography-view__color-item_cedar"></div>
+                        <div class="phtography-view__color-item phtography-view__color-item_darkgrey"></div>
+                        <div class="phtography-view__color-item phtography-view__color-item_blue"></div>
+                    </div>
+                </div>
                 <div class="photography-view__amount-of-product">
                     <input type="button" value="+" onClick='location.href="https://www.google.ru/"'>
                     <div class="photography-view__count"><p>1</p></div>
                     <input type="button" value="+" onClick='location.href="https://www.google.ru/"'>
                 </div>
-                <!-- <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                <div class="button-add-to-card button-add-to-card-in-product">
                     <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
-                </div> -->
+                </div> 
             </div>
+        </div>
+        <div class="main__contact">
+            <span>
+                <a href="" class="footer__icon"><i class="icon-facebook"></i></a>
+                <p>share<br> on facebook</p>
+            </span>
+            <span><a href="" class="footer__icon">
+                <i class="icon-pinterest-circled"></i></a>
+                <p>pin<br> this product</p>
+            </span>
+            <span>
+                <a href="" class="footer__icon"><i class="icon-twitter"></i></a>
+                <p>tweet<br> this product</p>
+            </span>
+            <span>
+                <a href="" class="footer__icon"><i class="icon-mail-alt"></i></a>
+                <p>email<br> a friend</p>
+            </span>  
         </div>
     </main>
     <script src="js/photography-view.js"></script>
