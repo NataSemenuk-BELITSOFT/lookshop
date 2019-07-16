@@ -1,0 +1,68 @@
+main {
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    max-width: 970px;
+}
+.main__photography-view {
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+.phtography-view__img {
+    position:  relative;
+}
+
+.phtography-view__img > img {
+    position: absolute;
+    opacity: 0;
+
+    display: block;
+}
+.phtography-view__img img.active {
+    opacity: 1;
+    transform: scale(1);
+}
+.phtography-view__link {
+    position: relative;
+    display: flex;
+    bottom: -450px;
+}
+.link__item {
+    margin-right: 10px;
+    margin-top: 5px; 
+}
+.link__item img {
+    width: 80px;
+}
+.phtography-view__info {
+    margin-left: 20px; 
+}
+.sale-clothes__price {
+    margin: 0;
+    padding: 0;
+    color: rgb(253, 145, 109);
+    font-weight: bold;
+    font-size: 35px;
+}
+.sale-clothes__name {
+    font-weight: bold;
+    font-size: 25px;  
+}
+.phtography-view__return-home {
+    border-bottom: 1px solid gray;
+}
+.phtography-view__return-home a{
+    color: rgb(253, 145, 109);
+}
+.phtography-view__return-home p {
+    padding: 10px 0;
+    margin: 0;
+}
+.phtography-view__return-home p::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px 0 0;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(200, 200, 200)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
