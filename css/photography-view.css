@@ -68,11 +68,7 @@ main {
   }
 
 
-
-
-
-
-.photography-view__amount-of-product {
+  .photography-view__amount-of-product {
     font-family: 'Nunito', sans-serif;
     position: absolute;
   }
@@ -140,6 +136,7 @@ main {
   .phtography-view__color-item_blue {
     background-color: rgb(140, 179, 252);
   }
+
   .main__contact {
     display: flex;
     justify-content: space-around;
@@ -150,13 +147,13 @@ main {
     padding: 15px 0;
   }
   .main__contact a {
-      padding: 10px;
-      border: 3px solid gray;
+      padding: 8px;
+      border: 2px solid gray;
       border-radius: 100%;
   }
   .main__contact i {
       color: gray;
-      font-size: 25px;      
+      font-size: 20px;      
   }
   .main__contact a:hover {
       background-color: rgb(240, 232, 232);
@@ -170,3 +167,79 @@ main {
       text-transform: uppercase;
       margin: 0;
   }
+  .main__accordion {
+    position: relative;
+    top: 190px;
+  }
+
+
+
+  .accordion {
+    font-family: 'Nunito', sans-serif;
+    /* max-width: 250px; */
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+}
+.accordion-header {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.accordion>li {
+    /* border-bottom: 1px solid  gray; */
+    padding: 10px 0;
+}
+.accordion-body {
+    padding-left: 20px;
+    display: none;
+    /* list-style-type: square; */
+    list-style-type: none;
+}
+.accordion-body li {
+    color: rgb(253, 145, 109); 
+}
+.accordion-header {
+    position: relative;
+    left: 40px;
+    
+}
+.accordion-header::before{
+    content: '';
+    position: absolute;
+    left: -32px;
+    top: -2px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 0 10px 0 0;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255, 255, 255)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 12px 12px; 
+    background-position: center; 
+    border: 1px solid white;
+}
+.accordion-header,
+.accordion-body{
+    /* color: black;  */
+    color: white; 
+}
+.accordion-body li {
+    margin: 5px 0;
+}
+.accordion_descrpt-bck {
+    background-color: rgb(255, 196, 176); 
+}
+.accordion_inf-bck {
+    background-color: rgb(255, 185, 162); 
+}
+.accordion_reviews-bck {
+    background-color: rgb(255, 170, 142); 
+}
+.accordion_link-bck {
+    background-color: rgb(255, 154, 121); 
+}
+.accordion_make-gift-bck {
+    background-color: rgb(255, 143, 106); 
+}
+
+ 
