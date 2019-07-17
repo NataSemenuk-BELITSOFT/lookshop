@@ -31,16 +31,7 @@
 .box-clothes__sprite-clothes img[alt="shop it"]:hover {
     z-index: -1; 
 } */
-/* .box-clothes__sprite-clothes img[alt="shop it"]:hover:after{
-    content: "";
-    position: absolute;
-    z-index: 1;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    width: 120px;
-    background-image: url('index\shop_it.png');   
-} */
+
 .box-clothes__item-info {
     background-color: rgb(233, 233, 233);
     height: 70px;
