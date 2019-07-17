@@ -9,25 +9,29 @@
     padding-bottom: 60px;  
     font-size: 15px;
 }
+.box-clothes a {
+    color: black;
+}
 .box-clothes__item {
     width: 220px;
 }
 .box-clothes__sprite-clothes {
-    background: url("spr.png");
     width: 220px;
-    height: 290px;
+    position: relative;
 }
-.box-clothes__sprite-clothes_position-first {
-    background-position: 0 0; 
+.box-clothes__sprite-clothes img[src$=".jpg"]{
+    width: 100%;
+    display: block;
 }
-.box-clothes__sprite-clothes_position-second {
-    background-position: 720px 0; 
+.box-clothes__sprite-clothes img[alt="shop it"] {
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
 }
-.box-clothes__sprite-clothes_position-third {
-    background-position: 470px 0; 
-}
-.box-clothes__sprite-clothes_position-forth {
-    background-position: 220px 0; 
+.box-clothes__sprite-clothes img[alt="shop it"]:hover {
+    z-index: -1; 
 }
 .box-clothes__item-info {
     background-color: rgb(233, 233, 233);

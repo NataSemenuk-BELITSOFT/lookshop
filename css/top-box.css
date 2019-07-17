@@ -36,6 +36,8 @@
     position: absolute; 
     transform: rotateX(-270deg); 
     width: 100px;
+    
+    background-color: white;
 }
 .submenu li {
     position: relative;
@@ -67,6 +69,7 @@
     flex-direction: column;
     font-size: 14px;
     color: gray;
+    margin-left: 40px; 
 }
 .nav__your-carts input[placeholder="Your cart"] {
     border:  1px solid rgb(187, 187, 187);

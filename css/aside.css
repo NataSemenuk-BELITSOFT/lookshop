@@ -70,3 +70,35 @@ aside {
     font-weight: bold;
     font-size: 20px;
 }
+.accordion {
+    max-width: 250px;
+}
+.accordion>li {
+    border-bottom: 1px solid  gray;
+}
+.accordion-body {
+    list-style-type: square;
+}
+
+.accordion-header:after{
+	content: "+";
+    font-weight: bold;
+    font-size: 25px; 
+	float: right;
+}
+
+.accordion-header.active:after{
+	font-weight: bold;
+	content: "-";
+	float: right;
+}
+.accordion-body li {
+    padding: 2px 0;
+    color: rgb(253, 145, 109); 
+}
+.accordion-body li span {
+    color: black; 
+}
+.accordion-body li span:hover {
+    font-weight: bold;
+}

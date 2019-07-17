@@ -3,6 +3,9 @@ header {
     color: white;
     font-family: 'Nunito', sans-serif;
 }
+header a {
+    color: white;
+}
 .header-box {
     position: relative;
     transform: translate(-50%);

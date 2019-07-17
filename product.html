@@ -9,36 +9,136 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="D:\lookshop\css\normalize.css"/>
     <link rel="stylesheet" href="D:\lookshop\css\common.css">
-    <link rel="stylesheet" href="D:\lookshop\css\photography-view.css">
+    <link rel="stylesheet" href="D:\lookshop\css\header.css">
+    <link rel="stylesheet" href="D:\lookshop\css\top-box.css">
+    <link rel="stylesheet" href="D:\lookshop\css\breadcrumbs.css">
+    <link rel="stylesheet" href="D:\lookshop\css\main-in-product.css">
     <link rel="stylesheet" href="D:\lookshop\css\icon-contact.css">
+    <link rel="stylesheet" href="D:\lookshop\css\box-clothes.css">
+    <link rel="stylesheet" href="D:\lookshop\css\footer.css">
 </head>
 <body>
+    <header>
+        <div class="header-box">
+            <p>custome care: 888-23-4567</p>
+            <div class="header__currency"> 
+                <select name="currency" id="currency"> 
+                    <option value="US">$ US</option> 
+                    <option value="RU">RU</option> 
+                    <option value="BY">BY</option> 
+                </select> 
+            </div>
+            <div class="header__account">
+                    <i class="icon-user"></i>
+                <a href="#">
+                    <p>my account</p>
+                </a>
+            </div>
+            <div class="header__search">
+                <i class="icon-search"></i>
+            </div>
+        </div>    
+    </header>
+    <div class="top-box">
+        <div class="logo">
+            <a href="index.html" title="lookshop"><img src="logo.png"></a>
+        </div>
+        <nav>
+            <ul class="topmenu">
+                <li class="items-of-navigation"><a href="#1">new</a>
+                    <ul class="submenu">
+                        <li><a href="#1">women</a></li>
+                        <li><a href="#1">men</a></li>
+                        <li><a href="#1">kids</a></li>
+                        <li><a href="#1">plus size</a></li>
+                    </ul>
+                </li>
+                <li class="items-of-navigation"><a href="#1">designers</a>
+                    <ul class="submenu">
+                        <li><a href="#1">Christian Dior</a></li>
+                        <li><a href="#1">Donatella Versace</a></li>
+                        <li><a href="#1">Michael Kors</a></li>
+                        <li><a href="#1">Karl Lagerfeld</a></li>
+                        <li><a href="#1">Miuccia Prada</a></li>
+                    </ul>
+                </li>
+                <li class="items-of-navigation"><a href="#1">women</a>
+                    <ul class="submenu">
+                        <li><a href="#1">blazers</a></li>
+                        <li><a href="#1">tops</a></li>
+                        <li><a href="#1">trousers</a></li>
+                        <li><a href="#1">skirts</a></li>
+                        <li><a href="#1">shoes</a></li>
+                        <li><a href="#1">accessories</a></li>    
+                    </ul>
+                </li>
+                <li class="items-of-navigation"><a href="#1">men</a>
+                    <ul class="submenu">
+                        <li><a href="#1">outerwear</a></li>
+                        <li><a href="#1">suits</a></li>
+                        <li><a href="#1">shirts</a></li>
+                        <li><a href="#1">jeans</a></li>
+                        <li><a href="#1">shoes</a></li>
+                        <li><a href="#1">accessories</a></li>
+                    </ul>
+                </li>
+                <li class="items-of-navigation"><a href="#1">kids</a>
+                    <ul class="submenu">
+                        <li><a href="#1">girl</a></li>
+                        <li><a href="#1">boy</a></li>
+                        <li><a href="#1">shoes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="nav__your-carts">
+            <div class="nav__input_cart">
+                <input type="text" placeholder="Your cart">
+                <div class="nav__pointer"></div>
+            </div>
+            
+            <div class="your-carts__counter">
+                <i class="icon-shopping-bag"></i>
+                <p>0 items | $ 0</p>
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <a href="D:/lookshop/index.html"><i class="icon-home"></i></a>
+        <a href="#">&gt; Women</a>
+        <a href="D:/lookshop/products.html">&gt; Clothes</a>
+        <a href="#">&gt; Blouses & Shirts</a>
+        <a class="active" href="#">&gt; B.young</a>
+        <a class="active" href="#">&gt; Sofi Blouse</a>
+    </div>
     <main>
         <div class="main__photography-view">
             <div class="phtography-view__img">
-                <img src="product/5.jpg" width="350px" alt="" class="active">
-                <img src="product/2.jpg" alt="">
-                <img src="product/3.jpg" alt="">
-                <img src="product/1.jpg" alt="">
+                <img src="product/5.jpg" alt="Sofi Blouse" class="active">
+                <img src="product/4.jpg" alt="Sofi Blouse">
+                <img src="product/1.jpg" alt="Sofi Blouse">
+                <img src="product/2.jpg" alt="Sofi Blouse">
                 <div class="phtography-view__link">
-                    <a href="" class="link__item active"><img src="product/4.jpg"></a>
-                    <a href="" class="link__item"><img src="product/2.jpg"></a>
-                    <a href="" class="link__item"><img src="product/3.jpg"></a>
+                    <a href="" class="link__item active"><img src="product/5.jpg"></a>
+                    <a href="" class="link__item"><img src="product/4.jpg"></a>
                     <a href="" class="link__item"><img src="product/1.jpg"></a>
+                    <a href="" class="link__item"><img src="product/2.jpg"></a>
                 </div>
             </div>
             <div class="phtography-view__info">
                 <div class="phtography-view__return-home">
-                    <p>Back to <a href="">Women's Clothing</a></p>
+                    <p>Back to <a href="file:///D:/lookshop/index.html">Women's Clothing</a></p>
                 </div>
                 <p class="phtography-view__name">Sofi Blouse</p>
                 <p class="phtography-view__price">$ 45.55</p>
                 <p>Lorem Ipsu is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 <div class="phtography-view__select-size-color">
-                    <select name="sort-by"> 
-                        <option value="US">Data</option> 
-                        <option value="RU">Price</option> 
-                        <option value="BY">Country</option> 
+                    <select name="select-size"> 
+                        <option value="XS">XS</option> 
+                        <option value="S">S</option> 
+                        <option value="BY">M</option> 
+                        <option value="BY">L</option> 
+                        <option value="BY">XL</option> 
                     </select> 
                     <div class="phtography-view__colors">
                         <div class="phtography-view__color-item phtography-view__color-item_lightgray"></div>
@@ -48,31 +148,32 @@
                         <div class="phtography-view__color-item phtography-view__color-item_blue"></div>
                     </div>
                 </div>
+
                 <div class="photography-view__amount-of-product">
                     <input type="button" value="+" onClick='location.href="https://www.google.ru/"'>
                     <div class="photography-view__count"><p>1</p></div>
                     <input type="button" value="+" onClick='location.href="https://www.google.ru/"'>
+                    <div class="button-add-to-card button-add-to-card-in-product">
+                        <input type="button" value="ADD TO CARD">
+                    </div> 
                 </div>
-                <div class="button-add-to-card button-add-to-card-in-product">
-                    <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
-                </div> 
             </div>
         </div>
         <div class="main__contact">
             <span>
-                <a href="" class="footer__icon"><i class="icon-facebook"></i></a>
+                <a href=""><i class="icon-facebook"></i></a>
                 <p>share<br> on facebook</p>
             </span>
-            <span><a href="" class="footer__icon">
+            <span><a href="">
                 <i class="icon-pinterest-circled"></i></a>
                 <p>pin<br> this product</p>
             </span>
             <span>
-                <a href="" class="footer__icon"><i class="icon-twitter"></i></a>
+                <a href=""><i class="icon-twitter"></i></a>
                 <p>tweet<br> this product</p>
             </span>
             <span>
-                <a href="" class="footer__icon"><i class="icon-mail-alt"></i></a>
+                <a href=""><i class="icon-mail-alt"></i></a>
                 <p>email<br> a friend</p>
             </span>  
         </div>
@@ -111,6 +212,147 @@
             </ul>
         </div>
     </main>
+    <div class="box-clothes">
+        <a href="file:///D:/lookshop/product.html#">
+            <div class="box-clothes__item">
+                <div class="box-clothes__sprite-clothes">
+                    <img src="D:\lookshop\index\1.jpg" alt="Nadia Dress" title="Nadia Dress">
+                    <img src="index\shop_it.png" alt="shop it">
+                </div>
+                <div class="box-clothes__item-info">
+                    <p>nadia dress</p>
+                    <h3>$ 64,95</h3>
+                    <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                        <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="file:///D:/lookshop/product.html#">
+            <div class="box-clothes__item">
+                <div class="box-clothes__sprite-clothes">
+                    <img src="D:\lookshop\index\2.jpg" alt="Sofi Blouse" title="Sofi Blouse">
+                </div>
+                <div class="box-clothes__item-info">
+                    <p>sofi blouse</p>
+                    <h3>$ 26,95</h3>
+                    <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                        <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="file:///D:/lookshop/product.html#">
+            <div class="box-clothes__item">
+                <div class="box-clothes__sprite-clothes">
+                    <img src="D:\lookshop\index\3.jpg" alt="Gooding Shorts" title="Gooding Shorts">
+                </div>
+                <div class="box-clothes__item-info">
+                    <p>gooding shorts</p>
+                    <h3>$ 79,95</h3>
+                    <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                        <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="file:///D:/lookshop/product.html#">
+            <div class="box-clothes__item box-clothes__item_del">
+                <div class="box-clothes__sprite-clothes">
+                    <img src="D:\lookshop\index\4.jpg" alt="Mimosa Lace Dress" title="Mimosa Lace Dress">
+                </div>
+                <div class="box-clothes__item-info">
+                    <p>mimosa lace dress</p>
+                    <h3>$ 76</h3>
+                    <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                        <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <footer>
+        <div class="footer__cards-box">
+            <p>We accept</p>
+            <div>
+                <img src="index\CARDS.png">
+            </div>    
+        </div>
+        <div class="footer__full-information">
+            <div class="footer__information">
+                <ul><p>Customer Service</p>
+                    <li>Contact</li>
+                    <li>FAQ</li>
+                    <li>Terms of payment</li>
+                    <li>Terms of sate</li>
+                    <li>Delivery terms and conditions</li>
+                    <li>Returns and Refunds</li>
+                </ul>
+                <ul><p>Information</p>
+                    <li>Affiliate</li>
+                    <li>Cookies</li>
+                    <li>How to Shop</li>
+                    <li>About Nelly</li>
+                    <li>Investor relations</li>
+                </ul>
+                <ul><p>Campaigns</p>
+                    <li>Evening dresses</li>
+                    <li>Make up</li>
+                    <li>Fashion forward</li>
+                    <li>training clothes</li>
+                    <li>Special Occasion Dresses</li>
+                </ul>
+                <ul><p>Stores</p>
+                    <li>Paris</li>
+                    <li>New York</li>
+                    <li>London</li>
+                    <li>Mdrid</li>
+                    <li>Tokio</li>
+                </ul>
+            </div> 
+            <div class="full-information__icons"><p>Social</p>
+                <div class="footer__information_icon-margin">
+                    <a href="" class="footer__icon"><i class="icon-twitter"></i></a>
+                    <a href="" class="footer__icon"><i class="icon-pinterest-circled"></i></a>
+                    <a href="" class="footer__icon"><i class="icon-facebook"></i></a>
+                </div>
+                <div class="footer__information_icon-margin">
+                    <a href="" class="footer__icon"><i class="icon-gplus"></i></a>
+                    <a href="" class="footer__icon"><i class="icon-twitter-1"></i></a>
+                    <a href="" class="footer__icon"><i class="icon-vkontakte"></i></a>
+                </div>
+            </div>
+            <img src="index\label_secured.png">
+        </div>
+        <div class="footer__copyright-box">
+            <div class="footer__info">
+                <a href="#5">
+                    <p>Privacy & Cookies</p>
+                    <p class="footer__vert-line">|</p>
+                </a>
+                <a href="#6">
+                    <p>Terms & Conditions</p>
+                    <p class="footer__vert-line">|</p>
+                </a>
+                <a href="#7">
+                    <p>Accessibility</p>
+                    <p class="footer__vert-line">|</p>
+                </a>
+                <a href="#8">
+                    <p>Store Directory</p>
+                    <p class="footer__vert-line">|</p>
+                </a>
+                <a href="#9">
+                    <p>About Us</p>
+                </a>
+            </div>
+            <div class="footer__copyright">
+                <p>&copy;LookShop</p>
+                <p>All Right Reserved</p>
+            </div>
+            
+        </div>
+    </footer>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js\photography-view.js"></script>
     <script src="js\accordion.js"></script>

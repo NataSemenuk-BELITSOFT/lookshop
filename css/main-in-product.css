@@ -1,4 +1,5 @@
 main {
+    margin-top: 30px;
     position: relative;
     transform: translate(-50%);
     left: 50%;
@@ -10,12 +11,13 @@ main {
 }
 .phtography-view__img {
     position:  relative;
+    height: 600px;
 }
 
 .phtography-view__img > img {
     position: absolute;
     opacity: 0;
-
+    width: 350px;
     display: block;
 }
 .phtography-view__img img.active {
@@ -103,7 +105,7 @@ main {
     margin: 0;
   }
   .button-add-to-card-in-product {
-      right: 340px;
+      right: -130px;
   }
   .phtography-view__select-size-color {
       display: flex;
@@ -113,6 +115,14 @@ main {
       padding: 10px 0;
       margin-bottom: 25px;
   }
+  .phtography-view__select-size-color select {
+      border: none;
+      background-color: rgb(219, 219, 219);
+      padding: 0 20px;
+  }
+  .phtography-view__select-size-color option {
+    border: none;
+}
   .phtography-view__colors {
       display: flex;
   }
@@ -141,7 +151,6 @@ main {
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 190px;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     padding: 15px 0;
@@ -167,32 +176,14 @@ main {
       text-transform: uppercase;
       margin: 0;
   }
+
   .main__accordion {
     position: relative;
-    top: 190px;
   }
-
-
-
-  .accordion {
-    font-family: 'Nunito', sans-serif;
-    /* max-width: 250px; */
+.accordion {
     width: 100%;
-    padding: 0;
-    list-style-type: none;
-}
-.accordion-header {
-    cursor: pointer;
-    text-transform: uppercase;
-}
-.accordion>li {
-    /* border-bottom: 1px solid  gray; */
-    padding: 10px 0;
 }
 .accordion-body {
-    padding-left: 20px;
-    display: none;
-    /* list-style-type: square; */
     list-style-type: none;
 }
 .accordion-body li {
@@ -220,7 +211,6 @@ main {
 }
 .accordion-header,
 .accordion-body{
-    /* color: black;  */
     color: white; 
 }
 .accordion-body li {
