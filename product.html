@@ -8,14 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="D:\lookshop\css\normalize.css"/>
-    <link rel="stylesheet" href="D:\lookshop\css\common.css">
+    <link rel="stylesheet" href="D:\lookshop\css\box-clothes.css">
     <link rel="stylesheet" href="D:\lookshop\css\header.css">
     <link rel="stylesheet" href="D:\lookshop\css\top-box.css">
     <link rel="stylesheet" href="D:\lookshop\css\breadcrumbs.css">
     <link rel="stylesheet" href="D:\lookshop\css\main-in-product.css">
     <link rel="stylesheet" href="D:\lookshop\css\icon-contact.css">
-    <link rel="stylesheet" href="D:\lookshop\css\box-clothes.css">
     <link rel="stylesheet" href="D:\lookshop\css\footer.css">
+    <link rel="stylesheet" href="D:\lookshop\css\common.css">
     <style>
         .box-clothes__sprite-clothes:hover::after {
             content: '';
@@ -32,6 +32,7 @@
             background-size: 112px 112px; 
             background-position: center; 
         }
+        
     </style>
 </head>
 <body>
@@ -60,7 +61,7 @@
         <div class="logo">
             <a href="index.html" title="lookshop"><img src="logo.png"></a>
         </div>
-        <nav>
+        <nav>  
             <ul class="topmenu">
                 <li class="items-of-navigation"><a href="#1">new</a>
                     <ul class="submenu">
@@ -120,6 +121,58 @@
             </div>
         </div>
     </div>
+    <div class="menuToggle menuToggle_orange"><p>MENU</p><i class="icon-menu"></i></div>  
+    <ul class="accordion-menu" data-accordion="open">
+        <li class="accordion_descrpt-bck">
+            <span class="menu-accordion-header">new</span>
+            <ul class="accordion-body-menu">
+                <li><a href="#1">women</a></li>
+                <li><a href="#1">men</a></li>
+                <li><a href="#1">kids</a></li>
+                <li><a href="#1">plus size</a></li>
+            </ul>
+        </li>
+        <li class="accordion_inf-bck">
+            <span class="menu-accordion-header">designers</span>
+            <ul class="accordion-body-menu">
+                <li><a href="#1">Christian Dior</a></li>
+                <li><a href="#1">Donatella Versace</a></li>
+                <li><a href="#1">Michael Kors</a></li>
+                <li><a href="#1">Karl Lagerfeld</a></li>
+                <li><a href="#1">Miuccia Prada</a></li>
+            </ul>
+        </li>
+        <li class="accordion_reviews-bck">
+            <span class="menu-accordion-header">women</span>
+            <ul class="accordion-body-menu">
+                <li><a href="#1">blazers</a></li>
+                <li><a href="#1">tops</a></li>
+                <li><a href="#1">trousers</a></li>
+                <li><a href="#1">skirts</a></li>
+                <li><a href="#1">shoes</a></li>
+                <li><a href="#1">accessories</a></li> 
+            </ul>
+        </li>
+        <li class="accordion_link-bck">
+            <span class="menu-accordion-header">men</span>
+            <ul class="accordion-body-menu">
+                <li><a href="#1">outerwear</a></li>
+                <li><a href="#1">suits</a></li>
+                <li><a href="#1">shirts</a></li>
+                <li><a href="#1">jeans</a></li>
+                <li><a href="#1">shoes</a></li>
+                <li><a href="#1">accessories</a></li>
+            </ul>
+        </li>
+        <li class="accordion_make-gift-bck">
+            <span class="menu-accordion-header">kids</span>
+            <ul class="accordion-body-menu">
+                <li><a href="#1">girl</a></li>
+                <li><a href="#1">boy</a></li>
+                <li><a href="#1">shoes</a></li>
+            </ul>
+        </li>
+    </ul>
     <div class="breadcrumbs">
         <a href="D:/lookshop/index.html"><i class="icon-home"></i></a>
         <a href="#">&gt; Women</a>
@@ -259,7 +312,7 @@
             </div>
         </a>
         <a href="file:///D:/lookshop/product.html#">
-            <div class="box-clothes__item">
+            <div class="box-clothes__item box-clothes__item_del_720">
                 <div class="box-clothes__sprite-clothes">
                     <img src="D:\lookshop\index\3.jpg" alt="Gooding Shorts" title="Gooding Shorts">
                 </div>
@@ -273,7 +326,7 @@
             </div>
         </a>
         <a href="file:///D:/lookshop/product.html#">
-            <div class="box-clothes__item box-clothes__item_del">
+            <div class="box-clothes__item box-clothes__item_del_900">
                 <div class="box-clothes__sprite-clothes">
                     <img src="D:\lookshop\index\4.jpg" alt="Mimosa Lace Dress" title="Mimosa Lace Dress">
                 </div>
@@ -322,7 +375,7 @@
                     <li>Paris</li>
                     <li>New York</li>
                     <li>London</li>
-                    <li>Mdrid</li>
+                    <li>Madrid</li>
                     <li>Tokio</li>
                 </ul>
             </div> 
@@ -341,6 +394,7 @@
             <img src="index\label_secured.png">
         </div>
         <div class="footer__copyright-box">
+            <div class="menuToggle"><i class="icon-menu"></i></div>
             <div class="footer__info">
                 <a href="#5">
                     <p>Privacy & Cookies</p>
@@ -372,6 +426,9 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js\photography-view.js"></script>
     <script src="js\accordion.js"></script>
+    <script src="js\menu-accordion.js"></script>
+    <script src="js\menu.js"></script>
+    <script src="js\footer-media.js"></script>
 </body>
 </html>
 

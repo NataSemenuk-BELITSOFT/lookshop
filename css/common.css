@@ -204,8 +204,159 @@
   padding-left: 20px;
   display: none;
 }
-
-
+.menuToggle_orange {
+  background-color: rgb(253, 145, 109);
+}
+.menuToggle {
+  display: none;
+  margin: 0 10px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  padding: 10px;
+}
+.accordion-menu {
+  display: none;
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+  margin: 0 10px;
+ }
+ .footer__info {
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+  margin: 0 10px;
+ }
+ .accordion-body-menu {
+   display: none;
+ }
+ .accordion-menu>li {
+   cursor: pointer;
+   color: white;
+   padding: 5px 20px;
+ }
+.accordion-menu li {
+  list-style-type: none;
+}
+.accordion-body-menu a {
+  color: white;
+}
+@media screen and (max-width: 900px) {
+  .footer__information {
+      flex-wrap: wrap;
+      width: 60%;
+  }
+  .footer__information ul {
+      width: 40%;
+      padding-bottom: 20px;
+  }
+  .full-information__icons {
+      margin-left: 10px;
+      margin-right: 20px; 
+  }
+  .footer__copyright-box {
+      font-size: 12px;
+  }
+  .footer__copyright {
+      padding-right: 20px; 
+  }
+  .footer__info {
+      padding-left: 20px; 
+  }  
+  .box-clothes {
+     justify-content: center;
+  }
+  .box-clothes__item_del_900 {
+      display: none;
+  } 
+  .box-clothes__item {
+    padding: 0 20px;
+  } 
+    
+  .topmenu {
+    display: none;
+  } 
+  .menuToggle {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  }  
+  .menuToggle p {
+    margin: 0;
+  }
+  .accordion-menu {
+    display: none;
+  }
+  .accordion-body-menu {
+    display: none;
+    padding-left: 10px; 
+  }
+  ul.accordion-menu {
+    display: none;
+  }
+  .footer__info p.footer__vert-line {
+    display: none;
+  }
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+  }
+ }
+@media screen and (max-width: 720px) {
+  .footer__full-information {
+      display: none;
+  }
+  .footer__cards-box {
+      display: none;
+  }
+  .about-lookshop {
+      display: none;
+  }
+  .brands {
+      display: none;
+  }
+  .slider {
+      display: none;
+  } 
+  .poster {
+      display: none;
+  }
+  .main__contact p {
+      display: none;
+  }
+  .main__contact {
+    border-top: none;
+  } 
+  .box-clothes__item_del_720 {
+      display: none;
+  }
+  .main__photography-view {
+    flex-direction: column;
+  }
+  .phtography-view__img {
+    display: flex;
+    justify-content: center;
+  }
+  .main__contact {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding: 0 20px;
+    border: none;
+  }
+  .main__contact span {
+    padding-left: 10px 
+  }
+  .phtography-view__return-home {
+    display: none;
+  }
+  .phtography-view__name {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 540px) {
+  .breadcrumbs {
+    display: none;
+  }
+}
 
 
 

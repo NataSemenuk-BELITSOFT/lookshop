@@ -38,6 +38,7 @@ main {
 }
 .phtography-view__info {
     margin-left: 20px; 
+    padding-right: 20px; 
 }
 .phtography-view__price {
     margin: 0;
@@ -67,119 +68,119 @@ main {
     height: 15px;
     margin: 0 10px 0 0;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(200, 200, 200)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-  }
-
-
-  .photography-view__amount-of-product {
-    font-family: 'Nunito', sans-serif;
-    position: absolute;
-  }
-  .photography-view__amount-of-product {
-    display: flex;
-  }
-  .photography-view__amount-of-product input[value="+"] {
-    height: 40px;
-    width: 40px;
-    padding: 0;
-    color: white;
-    font-weight: bold;
-    color: white;
-    font-size: 15px;
-    background: rgb(253, 145, 109);
-    box-shadow: inset 0 -3px 0px rgb(218, 95, 54);  
-    border: none;
-    outline: none;
-  }
-  .photography-view__count {
-      height: 40px;
-      width: 40px;
-      background: rgb(255, 179, 154);
-  }
-  .photography-view__count p{
-    text-align: center;
-    color: white;
-    height: 40px;
-    width: 40px;
-    font-size: 16px;
-    padding: 12px 0;
-    margin: 0;
-  }
-  .button-add-to-card-in-product {
-      right: -130px;
-  }
-  .phtography-view__select-size-color {
-      display: flex;
-      justify-content: space-between;
-      border-top: 1px solid gray;
-      border-bottom: 1px solid gray;
-      padding: 10px 0;
-      margin-bottom: 25px;
-  }
-  .phtography-view__select-size-color select {
-      border: none;
-      background-color: rgb(219, 219, 219);
-      padding: 0 20px;
-  }
-  .phtography-view__select-size-color option {
-    border: none;
 }
-  .phtography-view__colors {
-      display: flex;
-  }
-  .phtography-view__color-item {
-      width: 30px;
-      height: 30px;
-      margin-left: 2px; 
-  }
-  .phtography-view__color-item_lightgray {
-    background-color: rgb(224, 224, 224);
-  }
-  .phtography-view__color-item_smoke {
-    background-color: gray;
-  }
-  .phtography-view__color-item_cedar {
-    background-color: rgb(99, 81, 81);
-  }
-  .phtography-view__color-item_darkgrey {
-    background-color: rgb(77, 75, 75);
-  }
-  .phtography-view__color-item_blue {
-    background-color: rgb(140, 179, 252);
-  }
 
-  .main__contact {
+
+.photography-view__amount-of-product {
+font-family: 'Nunito', sans-serif;
+position: absolute;
+}
+.photography-view__amount-of-product {
+display: flex;
+}
+.photography-view__amount-of-product input[value="+"] {
+height: 40px;
+width: 40px;
+padding: 0;
+color: white;
+font-weight: bold;
+color: white;
+font-size: 15px;
+background: rgb(253, 145, 109);
+box-shadow: inset 0 -3px 0px rgb(218, 95, 54);  
+border: none;
+outline: none;
+}
+.photography-view__count {
+    height: 40px;
+    width: 40px;
+    background: rgb(255, 179, 154);
+}
+.photography-view__count p{
+text-align: center;
+color: white;
+height: 40px;
+width: 40px;
+font-size: 16px;
+padding: 12px 0;
+margin: 0;
+}
+.button-add-to-card-in-product {
+    right: -130px;
+}
+.phtography-view__select-size-color {
     display: flex;
-    justify-content: space-around;
-    position: relative;
+    justify-content: space-between;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    padding: 15px 0;
-  }
-  .main__contact a {
-      padding: 8px;
-      border: 2px solid gray;
-      border-radius: 100%;
-  }
-  .main__contact i {
-      color: gray;
-      font-size: 20px;      
-  }
-  .main__contact a:hover {
-      background-color: rgb(240, 232, 232);
-  }
-  .main__contact span {
-      display: flex;
-  }
-  .main__contact p {
-      padding-left: 10px; 
-      align-self: center;
-      text-transform: uppercase;
-      margin: 0;
-  }
+    padding: 10px 0;
+    margin-bottom: 25px;
+}
+.phtography-view__select-size-color select {
+    border: none;
+    background-color: rgb(219, 219, 219);
+    padding: 0 20px;
+}
+.phtography-view__select-size-color option {
+border: none;
+}
+.phtography-view__colors {
+    display: flex;
+}
+.phtography-view__color-item {
+    width: 30px;
+    height: 30px;
+    margin-left: 2px; 
+}
+.phtography-view__color-item_lightgray {
+background-color: rgb(224, 224, 224);
+}
+.phtography-view__color-item_smoke {
+background-color: gray;
+}
+.phtography-view__color-item_cedar {
+background-color: rgb(99, 81, 81);
+}
+.phtography-view__color-item_darkgrey {
+background-color: rgb(77, 75, 75);
+}
+.phtography-view__color-item_blue {
+background-color: rgb(140, 179, 252);
+}
 
-  .main__accordion {
-    position: relative;
-  }
+.main__contact {
+display: flex;
+justify-content: space-around;
+position: relative;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+padding: 15px 0;
+}
+.main__contact a {
+    padding: 8px;
+    border: 2px solid gray;
+    border-radius: 100%;
+}
+.main__contact i {
+    color: gray;
+    font-size: 20px;      
+}
+.main__contact a:hover {
+    background-color: rgb(240, 232, 232);
+}
+.main__contact span {
+    display: flex;
+}
+.main__contact p {
+    padding-left: 10px; 
+    align-self: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main__accordion {
+position: relative;
+}
 .accordion {
     width: 100%;
 }
