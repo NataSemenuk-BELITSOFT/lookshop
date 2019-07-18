@@ -13,24 +13,16 @@
     color: black;
 }
 .box-clothes__item {
-    width: 220px;
+    width: 194px;
 }
 .box-clothes__sprite-clothes {
-    width: 220px;
+    width: 194px;
     position: relative;
 }
 .box-clothes__sprite-clothes img[src$=".jpg"]{
     width: 100%;
     display: block;
 }
-/* .box-clothes__sprite-clothes img[alt="shop it"] {
-    position: absolute;
-    
-    
-}
-.box-clothes__sprite-clothes img[alt="shop it"]:hover {
-    z-index: -1; 
-} */
 
 .box-clothes__item-info {
     background-color: rgb(233, 233, 233);

@@ -295,9 +295,15 @@
   .footer__info p.footer__vert-line {
     display: none;
   }
+  
   .footer__info {
-    display: flex;
-    flex-direction: column;
+    display: none;
+  }
+  .footer__info span {
+    display: block;
+  }
+  .footer__copyright-box>div{
+    align-self: center;
   }
  }
 @media screen and (max-width: 720px) {
@@ -356,6 +362,84 @@
   .breadcrumbs {
     display: none;
   }
+  .header__number-phone {
+    display: none;
+  }
+  .header-box {
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    max-width: 970px;
+    display: flex;
+    padding: 0;
+  }
+  .header__currency {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+  }
+  .header__account {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+  }
+  .header__search {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+  }
+  .top-box {
+    flex-direction: column;
+  }
+  .nav__your-carts {
+    margin-left: 0px;
+  }
+  .nav__input_cart {
+    display: none;
+  }
+  .your-carts__counter {
+    width: 88vw;
+    border-top: 1px solid rgb(187, 187, 187);
+    
+  }
+  .main__contact {
+    display: none;
+  }
+  .main__accordion {
+    top: 40px;
+  }
+  .box-clothes {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .box-clothes__item {
+    width: 260px;
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    margin-top: 20px;
+  }
+  .box-clothes__sprite-clothes {
+    width: 260px;
+  }
+  @media screen and (max-width: 380px) {
+    .link__item {
+      margin: 0;
+    }
+    .link__item img {
+      width: 70px;
+    }
+    .phtography-view__img > img {
+      width: 290px;
+    }
+    .phtography-view__link {
+      bottom: -390px;
+  }
+  .phtography-view__img {
+    height: 500px;
+  }
+  }
+
 }
 
 
