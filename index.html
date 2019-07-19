@@ -8,18 +8,15 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="D:\lookshop\css\normalize.css"/>
-    <link rel="stylesheet" href="D:\lookshop\css\common.css">
     <link rel="stylesheet" href="D:\lookshop\css\icon-contact.css">
     <link rel="stylesheet" href="D:\lookshop\css\header.css">
     <link rel="stylesheet" href="D:\lookshop\css\top-box.css">
-    <link rel="stylesheet" href="D:\lookshop\css\slider-index.css">
-    <link rel="stylesheet" href="D:\lookshop\css\contact.css">
-    <link rel="stylesheet" href="D:\lookshop\css\poster.css">
     <link rel="stylesheet" href="D:\lookshop\css\catalog.css">
-    <link rel="stylesheet" href="D:\lookshop\css\clearance.css">
+    <link rel="stylesheet" href="D:\lookshop\css\index.css">
     <link rel="stylesheet" href="D:\lookshop\css\box-clothes.css">
-    <link rel="stylesheet" href="D:\lookshop\css\brands-&-about-lookshop.css">
     <link rel="stylesheet" href="D:\lookshop\css\footer.css">
+    <link rel="stylesheet" href="D:\lookshop\css\main-in-product.css">
+    <link rel="stylesheet" href="D:\lookshop\css\common.css">
     <title>index</title>
     <style>
         body {
@@ -31,7 +28,7 @@
 <body>
     <header>
         <div class="header-box">
-            <p>custome care: 888-23-4567</p>
+            <p class="header__number-phone">custome care: 888-23-4567</p>
             <div class="header__currency"> 
                 <select name="currency" id="currency"> 
                     <option value="US">$ US</option> 
@@ -41,19 +38,20 @@
             </div>
             <div class="header__account">
                     <i class="icon-user"></i>
-                <p>my account</p>
+                <a href="#">
+                    <p>my account</p>
+                </a>
             </div>
             <div class="header__search">
                 <i class="icon-search"></i>
             </div>
-        </div>
-        
+        </div>    
     </header>
     <div class="top-box">
         <div class="logo">
             <a href="index.html" title="lookshop"><img src="logo.png"></a>
         </div>
-        <nav>
+        <nav>  
             <ul class="topmenu">
                 <li class="items-of-navigation"><a href="#1">new</a>
                     <ul class="submenu">
@@ -113,6 +111,58 @@
             </div>
         </div>
     </div>
+    <div class="menuToggle menuToggle_orange"><p>MENU</p><i class="icon-menu"></i></div>  
+    <ul class="accordion-menu" data-accordion="open">
+        <li class="accordion_descrpt-bck">
+            <span class="menu-accordion-header">new</span>
+            <ul class="accordion-body-menu">
+                <li><a href="#1">women</a></li>
+                <li><a href="#1">men</a></li>
+                <li><a href="#1">kids</a></li>
+                <li><a href="#1">plus size</a></li>
+            </ul>
+        </li>
+        <li class="accordion_inf-bck">
+            <span class="menu-accordion-header">designers</span>
+            <ul class="accordion-body-menu">
+                <li><a href="#1">Christian Dior</a></li>
+                <li><a href="#1">Donatella Versace</a></li>
+                <li><a href="#1">Michael Kors</a></li>
+                <li><a href="#1">Karl Lagerfeld</a></li>
+                <li><a href="#1">Miuccia Prada</a></li>
+            </ul>
+        </li>
+        <li class="accordion_reviews-bck">
+            <span class="menu-accordion-header">women</span>
+            <ul class="accordion-body-menu">
+                <li><a href="#1">blazers</a></li>
+                <li><a href="#1">tops</a></li>
+                <li><a href="#1">trousers</a></li>
+                <li><a href="#1">skirts</a></li>
+                <li><a href="#1">shoes</a></li>
+                <li><a href="#1">accessories</a></li> 
+            </ul>
+        </li>
+        <li class="accordion_link-bck">
+            <span class="menu-accordion-header">men</span>
+            <ul class="accordion-body-menu">
+                <li><a href="#1">outerwear</a></li>
+                <li><a href="#1">suits</a></li>
+                <li><a href="#1">shirts</a></li>
+                <li><a href="#1">jeans</a></li>
+                <li><a href="#1">shoes</a></li>
+                <li><a href="#1">accessories</a></li>
+            </ul>
+        </li>
+        <li class="accordion_make-gift-bck">
+            <span class="menu-accordion-header">kids</span>
+            <ul class="accordion-body-menu">
+                <li><a href="#1">girl</a></li>
+                <li><a href="#1">boy</a></li>
+                <li><a href="#1">shoes</a></li>
+            </ul>
+        </li>
+    </ul>
     <div class="main_box">
         <div id="slider" class="slider">
             <ol class="slider__indicators">
@@ -188,58 +238,64 @@
             <div class="clearance__line"></div>    
             <img src="index\clearance.png">   
         </div>
-
         <div class="box-clothes">
-            <div class="box-clothes__item">
-                <div class="box-clothes__sprite-clothes">
-                    <img src="D:\lookshop\index\1.jpg" alt="Nadia Dress" title="Nadia Dress">
-                </div>
-                <div class="box-clothes__item-info">
-                    <p>nadia dress</p>
-                    <h3>$ 64,95</h3>
-                    <div class="button-add-to-card button-add-to-card_orange-for-clothes">
-                        <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+            <a href="file:///D:/lookshop/product.html#">
+                <div class="box-clothes__item">
+                    <div class="box-clothes__sprite-clothes">
+                        <img src="D:\lookshop\index\1.jpg" alt="Nadia Dress" title="Nadia Dress">
+                    </div>
+                    <div class="box-clothes__item-info">
+                        <p>nadia dress</p>
+                        <h3>$ 64,95</h3>
+                        <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                            <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="box-clothes__item">
-                <div class="box-clothes__sprite-clothes">
-                    <img src="D:\lookshop\index\2.jpg" alt="Sofi Blouse" title="Sofi Blouse">
-                </div>
-                <div class="box-clothes__item-info">
-                    <p>sofi blouse</p>
-                    <h3>$ 26,95</h3>
-                    <div class="button-add-to-card button-add-to-card_orange-for-clothes">
-                        <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+            </a>
+            <a href="file:///D:/lookshop/product.html#">
+                <div class="box-clothes__item">
+                    <div class="box-clothes__sprite-clothes">
+                        <img src="D:\lookshop\index\2.jpg" alt="Sofi Blouse" title="Sofi Blouse">
+                    </div>
+                    <div class="box-clothes__item-info">
+                        <p>sofi blouse</p>
+                        <h3>$ 26,95</h3>
+                        <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                            <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="box-clothes__item">
-                <div class="box-clothes__sprite-clothes">
-                    <img src="D:\lookshop\index\3.jpg" alt="Gooding Shorts" title="Gooding Shorts">
-                </div>
-                <div class="box-clothes__item-info">
-                    <p>gooding shorts</p>
-                    <h3>$ 79,95</h3>
-                    <div class="button-add-to-card button-add-to-card_orange-for-clothes">
-                        <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+            </a>
+            <a href="file:///D:/lookshop/product.html#">
+                <div class="box-clothes__item box-clothes__item_del_720">
+                    <div class="box-clothes__sprite-clothes">
+                        <img src="D:\lookshop\index\3.jpg" alt="Gooding Shorts" title="Gooding Shorts">
+                    </div>
+                    <div class="box-clothes__item-info">
+                        <p>gooding shorts</p>
+                        <h3>$ 79,95</h3>
+                        <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                            <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="box-clothes__item box-clothes__item_del">
-                <div class="box-clothes__sprite-clothes">
-                    <img src="D:\lookshop\index\4.jpg" alt="Mimosa Lace Dress" title="Mimosa Lace Dress">
-                </div>
-                <div class="box-clothes__item-info">
-                    <p>mimosa lace dress</p>
-                    <h3>$ 76</h3>
-                    <div class="button-add-to-card button-add-to-card_orange-for-clothes">
-                        <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+            </a>
+            <a href="file:///D:/lookshop/product.html#">
+                <div class="box-clothes__item box-clothes__item_del_900">
+                    <div class="box-clothes__sprite-clothes">
+                        <img src="D:\lookshop\index\4.jpg" alt="Mimosa Lace Dress" title="Mimosa Lace Dress">
+                    </div>
+                    <div class="box-clothes__item-info">
+                        <p>mimosa lace dress</p>
+                        <h3>$ 76</h3>
+                        <div class="button-add-to-card button-add-to-card_orange-for-clothes">
+                            <input type="button" value="ADD TO CARD" onClick='location.href="https://www.google.ru/"'>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
-
         <div class="brands">
             <div class="brands__top-line">
                 <div class="brands__top-info">
@@ -292,7 +348,7 @@
                     <li>Paris</li>
                     <li>New York</li>
                     <li>London</li>
-                    <li>Mdrid</li>
+                    <li>Madrid</li>
                     <li>Tokio</li>
                 </ul>
             </div> 
@@ -311,26 +367,39 @@
             <img src="index\label_secured.png">
         </div>
         <div class="footer__copyright-box">
-            <div class="footer__info">
-                <a href="#5">
-                    <p>Privacy & Cookies</p>
-                    <p class="footer__vert-line">|</p>
-                </a>
-                <a href="#6">
-                    <p>Terms & Conditions</p>
-                    <p class="footer__vert-line">|</p>
-                </a>
-                <a href="#7">
-                    <p>Accessibility</p>
-                    <p class="footer__vert-line">|</p>
-                </a>
-                <a href="#8">
-                    <p>Store Directory</p>
-                    <p class="footer__vert-line">|</p>
-                </a>
-                <a href="#9">
-                    <p>About Us</p>
-                </a>
+            <div class="footer__botom-menu">
+                <div class="menuToggle"><i class="icon-menu"></i></div>
+                <div class="footer__info">
+                    <span>
+                        <a href="#5">
+                            <p>Privacy & Cookies</p>
+                            <p class="footer__vert-line">|</p>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="#6">
+                            <p>Terms & Conditions</p>
+                            <p class="footer__vert-line">|</p>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="#7">
+                            <p>Accessibility</p>
+                            <p class="footer__vert-line">|</p>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="#8">
+                            <p>Store Directory</p>
+                            <p class="footer__vert-line">|</p>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="#9">
+                            <p>About Us</p>
+                        </a>
+                    </span>
+                </div>
             </div>
             <div class="footer__copyright">
                 <p>&copy;LookShop</p>
@@ -340,5 +409,11 @@
         </div>
     </footer>
     <script src="js\slider.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js\photography-view.js"></script>
+    <script src="js\accordion.js"></script>
+    <script src="js\menu-accordion.js"></script>
+    <script src="js\menu.js"></script>
+    <script src="js\footer-media.js"></script>
 </body>
 </html>

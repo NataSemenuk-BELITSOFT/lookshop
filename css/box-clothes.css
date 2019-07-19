@@ -1,3 +1,10 @@
+.section__full-catalog {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    top: 50px;
+}
+
+
 .box-clothes {
     display: flex;
     justify-content: space-between;
@@ -13,17 +20,23 @@
     color: black;
 }
 .box-clothes__item {
-    width: 194px;
+    padding-right: 15px;
+    width: 225px;
 }
 .box-clothes__sprite-clothes {
-    width: 194px;
+    width: 225px;
     position: relative;
 }
-.box-clothes__sprite-clothes img[src$=".jpg"]{
+.box-clothes__sprite-clothes img[src$=".jpg"] {
     width: 100%;
     display: block;
 }
-
+.top-box-clothes{
+    border-bottom: 1px solid rgb(194, 194, 194);
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
 .box-clothes__item-info {
     background-color: rgb(233, 233, 233);
     height: 70px;
@@ -41,6 +54,21 @@
     margin: 0;
     text-align: center;
 }
+.box-clothes__item-info {
+    background-color: rgb(233, 233, 233);
+    height: 55px;
+    position: relative;
+    padding-bottom: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.button-add-to-card_orange-for-clothes {
+    position: absolute;
+    bottom: 8px;
+    transform: translate(-50%);
+    left: 50%;
+}
 .button-add-to-card_orange-for-clothes {
     position: absolute;
     bottom: 8px;
@@ -57,4 +85,48 @@
 }
 .button-add-to-card_orange-for-clothes::after {
     top: 40%; 
+}
+
+
+select[name="sort-by"] {
+    border: none;
+    background: rgb(231, 231, 231);
+    margin: 13px; 
+    padding: 5px;
+    color: rgb(59, 59, 59);
+}
+.top-box-clothes__sort-by {
+    display: flex;
+}
+.top-box-clothes__paginations {
+    display: flex;
+}
+.top-box-clothes__paginations p, 
+.top-box-clothes__sort-by p{
+    align-self: center;
+    padding-right: 15px; 
+}
+.top-box-clothes__paginations ul {        
+    display: inline-block;
+    padding: 0;
+}
+.top-box-clothes__paginations li {
+    display: inline-block;
+}
+.paginations__item {
+    color: rgb(59, 59, 59);
+    padding: 9px 13px;
+    background: rgb(231, 231, 231);
+    display: inline-block;
+}
+.paginations__item:hover {
+    background: rgb(197, 197, 197);
+}
+.paginations__item a {
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+}
+.top-box-clothes__paginations_positions {
+    justify-content: flex-end;
+    padding-right: 20px;
 }

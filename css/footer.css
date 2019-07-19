@@ -96,3 +96,6 @@ footer a {
     height: 120px;
     margin-right: 40px;
 }
+.footer__botom-menu {
+    display: flex;
+}
