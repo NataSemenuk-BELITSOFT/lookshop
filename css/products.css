@@ -95,7 +95,6 @@
 .accordion-header:after{
 	content: "+";
     font-weight: bold;
-    font-size: 25px; 
 	float: right;
 }
 
@@ -113,4 +112,38 @@
 }
 .accordion-body li span:hover {
     font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+    main {
+       flex-direction: column-reverse; 
+    }
+    aside {
+        width: 100%;
+        position: relative;
+        margin-top: 10px;
+    }
+    .aside__name-box {
+        width: 100%;
+    }
+    .accordion {
+        max-width: 100%;
+    }
+    .contact-main__email-box>p {
+        display: none;
+    }
+    .aside__sale-featured-products {
+        display: none;
+    } 
+    .top-box {
+        padding: 10px;
+    }
+    aside .accordion span {
+        padding: 10px;    
+    }
+    .aside__size {
+        padding: 0 10px;
+    }
+    .top-box-clothes {
+        padding: 0 10px;
+    }
 }
