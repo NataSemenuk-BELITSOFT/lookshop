@@ -53,6 +53,9 @@
     background-color: rgb(253, 145, 109);
     border-color: rgb(253, 145, 109);     
 } 
+.size__item a {
+    padding: 5px 7px;
+}
 .size__item a:hover {
     color: white;
 }    
@@ -86,6 +89,7 @@
     max-width: 250px;
 }
 .accordion>li {
+    position: relative;
     border-bottom: 1px solid  gray;
 }
 .accordion-body {
@@ -93,9 +97,12 @@
 }
 
 .accordion-header:after{
-	content: "+";
+    content: "+";
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    font-size: 25px;
     font-weight: bold;
-	float: right;
 }
 
 .accordion-header.active:after{
@@ -104,6 +111,7 @@
 	float: right;
 }
 .accordion-body li {
+    cursor: pointer;
     padding: 2px 0;
     color: rgb(253, 145, 109); 
 }

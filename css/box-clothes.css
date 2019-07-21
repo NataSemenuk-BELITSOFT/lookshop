@@ -12,8 +12,7 @@
     position: relative;
     transform: translate(-50%);
     left: 50%;
-    top: 50px;
-    padding-bottom: 60px;  
+    margin: 20px 0;  
     font-size: 15px;
 }
 .box-clothes a {
@@ -31,17 +30,8 @@
     width: 100%;
     display: block;
 }
-.box-clothes__sprite-clothes img[alt="shop it"]:hover:after{
-    content: "";
-    position: absolute;
-    z-index: 1;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    width: 120px;
-    background-image: url('index\shop_it.png');   
-} 
-.top-box-clothes{
+ 
+.top-box-clothes {
     border-bottom: 1px solid rgb(194, 194, 194);
     display: flex;
     justify-content: space-between;
@@ -54,19 +44,21 @@
     padding-bottom: 50px;
     font-family: 'Nunito', sans-serif;
 }
+.slider-catalog__content_footer p,
 .box-clothes__item-info p {
     text-align: center;
     padding: 10px;
     margin: 0;
     text-transform: uppercase;
 }
+.slider-catalog__content_footer h3,
 .box-clothes__item-info h3 {
     margin: 0;
     text-align: center;
 }
 .box-clothes__item-info {
     background-color: rgb(233, 233, 233);
-    height: 55px;
+    height: 60px;
     position: relative;
     padding-bottom: 50px;
     font-family: 'Nunito', sans-serif;
@@ -101,20 +93,22 @@
 select[name="sort-by"] {
     border: none;
     background: rgb(231, 231, 231);
-    margin: 13px; 
+    margin: 17px; 
     padding: 5px;
     color: rgb(59, 59, 59);
 }
 .top-box-clothes__sort-by {
     display: flex;
 }
+
+
 .top-box-clothes__paginations {
     display: flex;
 }
 .top-box-clothes__paginations p, 
 .top-box-clothes__sort-by p{
     align-self: center;
-    padding-right: 15px; 
+    padding-right: 17px; 
 }
 .top-box-clothes__paginations ul {        
     display: inline-block;

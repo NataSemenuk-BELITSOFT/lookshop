@@ -141,6 +141,12 @@
     padding: 0 5px;
     height: 70px;
 }
+.contact-main__email-box {
+    margin-left: 20px;
+}
+.contact-box {
+    margin-right: 20px;
+}
 .contact-main__email-box input[type="text"] {
     height: 35px;
     padding-left: 5px; 
@@ -152,6 +158,7 @@
 .contact-main__email-box input[type="button"] {
     height: 35px;
     width: 35px;
+    cursor: pointer;
     background: rgb(253, 145, 109);
     border: none;
     outline: none;
@@ -189,4 +196,102 @@ input[type="button"]:hover {
 .contact-box {
     display: flex;
     align-items: center;
+}
+.slider-catalog {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(253, 145, 109);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+.button-add-to-card_orange-for-catalog {
+    bottom: 10px;
+    transform: translate(-50%);
+    left: 50%;
+}
+.slider-catalog__wrapper {
+    display: flex;
+    transition: transform 0.6s ease;
+}
+
+.slider-catalog__item {
+    cursor: pointer;
+    float: left;
+    padding: 1px;
+    margin: 25px;
+}
+
+.slider-catalog__control {
+    position: absolute;
+    background-color: rgba(253, 145, 109, 0);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+}
+
+.slider-catalog__control:hover,
+.slider-catalog__control:focus {
+    color: #fff;
+    background-color: rgba(253, 145, 109, 0);
+    text-decoration: none;
+    outline: 0;
+}
+
+.slider-catalog__control_left {
+    left: 0;
+}
+
+.slider-catalog__control_right {
+    right: 0;
+}
+
+.slider-catalog__control::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.slider-catalog__control_left::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23424242' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.slider-catalog__control_right::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23424242' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.slider-catalog__content_header {
+    position: relative;
+    width: 210px;
+}
+.slider-catalog__content_header img {
+    width: 100%;
+    display: block;
+}
+.slider-catalog__content_footer {
+    background: #f5f5f5;
+    display: flex;
+    width: 180px;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 15px;
+    height: 100px;
+    color: #616161;
+}
+.slider-catalog__item:hover {
+    box-shadow: 0 0 10px black;
+}
+@media screen and (max-width: 420px) {
+    .catalog {
+        display: none;
+    }
 }

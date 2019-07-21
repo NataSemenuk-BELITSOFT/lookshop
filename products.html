@@ -8,15 +8,13 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="D:\lookshop\css\normalize.css"/>
+    <link rel="stylesheet" href="D:\lookshop\css\box-clothes.css">
     <link rel="stylesheet" href="D:\lookshop\css\header.css">
     <link rel="stylesheet" href="D:\lookshop\css\top-box.css">
-    <!-- <link rel="stylesheet" href="D:\lookshop\css\main-in-product.css"> -->
     <link rel="stylesheet" href="D:\lookshop\css\breadcrumbs.css">
     <link rel="stylesheet" href="D:\lookshop\css\icon-contact.css">
     <link rel="stylesheet" href="D:\lookshop\css\products.css">
-    <link rel="stylesheet" href="D:\lookshop\css\accordion.css">
     <link rel="stylesheet" href="D:\lookshop\css\footer.css">
-    <link rel="stylesheet" href="D:\lookshop\css\box-clothes.css">
     <link rel="stylesheet" href="D:\lookshop\css\common.css">
     <style>
         main {
@@ -28,6 +26,21 @@
         }
         img {
             display: block;
+        }
+        .box-clothes__sprite-clothes:hover::after {
+            content: '';
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+            display: inline-block;
+            width: 122px;
+            height: 122px;
+            margin: 0 10px 0 0;
+            background-image: url('index/shop_it.png');
+            background-repeat: no-repeat;
+            background-size: 112px 112px; 
+            background-position: center; 
         }
     </style>
 </head>
@@ -55,7 +68,7 @@
     </header>
     <div class="top-box">
         <div class="logo">
-            <a href="index.html" title="lookshop"><img src="logo.png"></a>
+            <a href="index.html" title="lookshop"><img src="index\logo.png"></a>
         </div>
         <nav>  
             <ul class="topmenu">
@@ -170,9 +183,9 @@
         </li>
     </ul>
     <div class="breadcrumbs">
-        <i class="icon-home"></i>
-        <a href="#">&gt; Women</a>
-        <a class="active" href="#">&gt; Clothes</a>
+        <a href="file:///D:/lookshop/index.html"><i class="icon-home"></i></a>
+        <a href="file:///D:/lookshop/products.html#4">&gt; Women</a>
+        <a class="active" href="file:///D:/lookshop/products.html#4">&gt; Clothes</a>
     </div>
     <div id="slider" class="slider">
         <ol class="slider__indicators">
@@ -224,10 +237,10 @@
                 <div class="top-box-clothes__paginations">
                     <p>Showing 1-9 of 347 results</p>
                     <ul>
-                        <li><div class="paginations__item"><a href="https://medium.com/">1</a></div></li>
-                        <li><div class="paginations__item"><a href="https://medium.com/">2</a></div></li>
-                        <li><div class="paginations__item"><a href="https://medium.com/">3</a></div></li>
-                        <li><div class="paginations__item"><a href="https://medium.com/"> &rsaquo;</a></div></li>
+                        <li><a href="#10"><div class="paginations__item">1</div></a></li>
+                        <li><a href="#11"><div class="paginations__item">2</div></a></li>
+                        <li><a href="#12"><div class="paginations__item">3</div></a></li>
+                        <li><a href="#13"><div class="paginations__item">&rsaquo;</div></a></li>
                     </ul>
                 </div> 
             </div>
@@ -362,6 +375,17 @@
                         </div>
                     </div>
                 </a>
+            </div>
+            <div class="top-box-clothes">
+                <div class="top-box-clothes__paginations">
+                    <p>Showing 1-9 of 347 results</p>
+                    <ul>
+                        <li><a href="#10"><div class="paginations__item">1</div></a></li>
+                        <li><a href="#11"><div class="paginations__item">2</div></a></li>
+                        <li><a href="#12"><div class="paginations__item">3</div></a></li>
+                        <li><a href="#13"><div class="paginations__item">&rsaquo;</div></a></li>
+                    </ul>
+                </div> 
             </div>
         </section>
         <aside>

@@ -4,6 +4,7 @@
     width: 100%;  
     top: 50px; 
     font-family: 'Nunito', sans-serif;
+    margin: 30px 0;
 }
 .catalog__menu {
     display: flex;
@@ -11,7 +12,7 @@
     transform: translate(-50%);
     left: 50%;
     max-width: 970px;
-}
+}  
 .catalog__item {
     padding: 10px 0;
     float: left;
@@ -22,6 +23,12 @@
     padding: 10px;
     color: rgb(71, 71, 71);
 }
+.catalog__item_active {
+    background-color: rgb(253, 145, 109); 
+}
+.catalog__item_active a {
+    color: white;
+} 
 .catalog__item a:active {
     color: white;
 }    
