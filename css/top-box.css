@@ -49,9 +49,10 @@
     text-decoration: none;
     color: black;
 }
-.submenu a:hover {
-    font-size: 1.2em;
-} 
+.submenu li:hover {
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+}  
 .items-of-navigation {
     position: relative;
 }

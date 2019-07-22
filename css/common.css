@@ -203,6 +203,9 @@ img[src="pictures/slider.png"] {
 .accordion>li {
   padding: 10px 0;
 }
+.accordion span {
+  cursor: pointer;
+}
 .accordion-body {
   padding-left: 40px;
   display: none;
@@ -271,6 +274,18 @@ img[src="pictures/slider.png"] {
 }
 .section__full-catalog {
   top: 0px;
+}
+.poster {
+  display: none;
+} 
+.catalog {
+  top: 0;
+}
+.contact-main {
+  bottom: -23px;
+}
+.phtography-view__color-item:hover {
+  box-shadow: 0 0 5px rgb(172, 172, 172);
 }
 }
 @media screen and (max-width: 900px) {
@@ -344,9 +359,6 @@ img[src="pictures/slider.png"] {
   .brands {
       display: none;
   }
-  .poster {
-      display: none;
-  } 
   .box-clothes__item_del_720 {
       display: none;
   }
@@ -363,6 +375,19 @@ img[src="pictures/slider.png"] {
   .phtography-view__name {
     margin-top: 0;
   }
+  
+  .main__contact {
+    display: none;
+  }
+  .main__accordion {
+    top: 40px;
+  }
+  .box-clothes {
+    top: 40px;
+  }
+  .top-box-clothes_mod {
+    padding-top: 20px;
+}
   
 }
 @media screen and (max-width: 640px) {
@@ -381,13 +406,6 @@ img[src="pictures/slider.png"] {
   .contact-main__email-box input[type="text"] {
     background-color: rgb(238, 238, 238);
     width: 100%;
-  }
-  .main__contact {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    padding: 0 20px;
-    border: none;
   }
   .main__contact span {
     padding-left: 10px 
@@ -471,9 +489,6 @@ img[src="pictures/slider.png"] {
     width: 234px;
     border-top: 1px solid rgb(187, 187, 187);
     
-  }
-  .main__contact {
-    display: none;
   }
   .main__accordion {
     top: 40px;
