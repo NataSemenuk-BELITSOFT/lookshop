@@ -9,8 +9,10 @@
     left: 62%;
   }
   
-
-  aside {
+a[title="product"] {
+    color: black;
+}
+aside {
     font-family: 'Nunito', sans-serif;
     width: 250px;
     margin-top: 26px; 

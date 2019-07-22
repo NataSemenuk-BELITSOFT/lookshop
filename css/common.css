@@ -184,8 +184,8 @@ h3 {
   height: 10px;
   content: "";
 }
-img[src="products\sliders.png"],
-img[src="slider.png"] {
+img[src="pictures/sliders.png"],
+img[src="pictures/slider.png"] {
   display: inline-block;
   height: auto;
   width: 100%;

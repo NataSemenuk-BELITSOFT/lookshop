@@ -115,7 +115,7 @@
   .button-shop-now_green::after {
     top: 40%; 
   }
-  img[src="poster.png"] {
+  img[src="pictures/poster.png"] {
     width: 100%;
     display: inline-block;
     height: auto;
