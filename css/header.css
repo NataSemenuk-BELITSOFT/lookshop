@@ -46,9 +46,17 @@ header select[name="currency"] {
     
 }
 .header__search i {
+    cursor: pointer;
     align-self: center;
 }
 .header__account i {
     align-self: center;
     padding-right: 5px; 
+}
+.header__search-input {
+    display: none;
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    right: 50px;
 }

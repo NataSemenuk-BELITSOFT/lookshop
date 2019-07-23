@@ -44,9 +44,6 @@
 .photography-view__amount-of-product input[type="button"]:hover {
   background-color:  rgba(218, 95, 54, 0.5);
 }
-.slider__indicator_active {
-  background-color: rgb(253, 146, 109);
-}
 .button-shop-now_orange input[type="button"],
 .button-add-to-card input[type="button"] {
   background: rgb(253, 145, 109);
@@ -183,6 +180,9 @@ h3 {
   width: 100%;
   height: 10px;
   content: "";
+}
+.slider__indicator_active {
+  background-color: rgb(253, 146, 109);
 }
 img[src="pictures/sliders.png"],
 img[src="pictures/slider.png"] {

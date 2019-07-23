@@ -130,7 +130,12 @@ main {
 .phtography-view__color-item {
     width: 30px;
     height: 30px;
-    margin-left: 2px; 
+    margin-left: 4px; 
+    cursor: pointer;
+}
+.phtography-view__color-item:hover {
+    box-shadow: 0 0 5px gray;
+    border-radius: 20%;
 }
 .phtography-view__color-item_lightgray {
     background-color: rgb(224, 224, 224);

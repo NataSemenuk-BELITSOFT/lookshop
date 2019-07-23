@@ -6,7 +6,10 @@ footer {
     font-size: 14px;
 }
 footer a {
-    color: rgb(192, 192, 192);
+    color: gray;
+}
+footer a:hover {
+    color: rgb(255, 157, 66);
 }
 .footer__copyright-box {
     display: flex;
@@ -76,7 +79,7 @@ footer a {
     font-size: 20px;
 }
 .footer__icon i:hover {
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(15, 15, 15);
 }
 .footer__cards-box {
     display: flex;
